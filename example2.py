@@ -1,7 +1,31 @@
 import numpy as np
 from rlgym_sim.utils.gamestates import GameState
+from rlgym.utils.reward_functions import RewardFunction
 from rlgym_ppo.util import MetricsLogger
+from rlgym_sim.utils import common_values
 
+BACK_NET_Y = common_values.BACK_NET_Y
+BACK_WALL_Y = common_values.BACK_WALL_Y
+BALL_RADIUS = common_values.BALL_RADIUS
+BALL_MAX_SPEED = common_values.BALL_MAX_SPEED
+
+
+class LiuDistanceBallToGoalReward(RewardFunction):
+    def __init__(self, own_goal=False):
+        self.own_goal = own_goal
+
+    def get_reward(self, player, state: GameState, previous_action):
+        # Determine which team the agent is on, and set the opponent's goal as the objective.
+        if self.own_goal:
+            objective = state.field_info.their_goal_center
+        else:
+            objective = state.field_info.our_goal_center
+
+        # Compute the normalized distance between the position of the ball and the center of the opponent's goal.
+        dist = np.linalg.norm(state.ball.position - objective) - (BACK_NET_Y - BACK_WALL_Y + BALL_RADIUS)
+
+        # Return the calculated reward
+        return np.exp(-0.5 * dist / BALL_MAX_SPEED)
 
 class ExampleLogger(MetricsLogger):
     def _collect_metrics(self, game_state: GameState) -> list:
@@ -29,7 +53,6 @@ def build_rocketsim_env():
         EventReward
     from rlgym_sim.utils.obs_builders import DefaultObs
     from rlgym_sim.utils.terminal_conditions.common_conditions import NoTouchTimeoutCondition, GoalScoredCondition
-    from rlgym_sim.utils import common_values
     from rlgym_sim.utils.action_parsers import ContinuousAction
 
     spawn_opponents = True
@@ -44,8 +67,10 @@ def build_rocketsim_env():
 
     rewards_to_combine = (VelocityPlayerToBallReward(),
                           VelocityBallToGoalReward(),
-                          EventReward(team_goal=1, concede=-1, demo=0.1))
-    reward_weights = (0.01, 0.1, 10.0)
+                          EventReward(team_goal=1, concede=-1, demo=0.1),
+                          LiuDistanceBallToGoalReward(own_goal=False)
+                          )
+    reward_weights = (0.01, 0.1, 10.0, 1) #Adjust Liu Distance reward weight as needed
 
     reward_fn = CombinedReward(reward_functions=rewards_to_combine,
                                reward_weights=reward_weights)
