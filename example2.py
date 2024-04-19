@@ -3,28 +3,34 @@ from rlgym_sim.utils.gamestates import GameState
 from rlgym.utils.reward_functions import RewardFunction
 from rlgym_ppo.util import MetricsLogger
 from rlgym_sim.utils import common_values
+from rlgym_sim.utils.gamestates import GameState, PlayerData
 
 BACK_NET_Y = common_values.BACK_NET_Y
 BACK_WALL_Y = common_values.BACK_WALL_Y
 BALL_RADIUS = common_values.BALL_RADIUS
 BALL_MAX_SPEED = common_values.BALL_MAX_SPEED
-
+ORANGE_GOAL_BACK = common_values.ORANGE_GOAL_BACK
+BLUE_GOAL_BACK = common_values.BLUE_GOAL_BACK
+ORANGE_TEAM = common_values.ORANGE_TEAM
+BLUE_TEAM = common_values.BLUE_TEAM
 
 class LiuDistanceBallToGoalReward(RewardFunction):
     def __init__(self, own_goal=False):
+        super().__init__()
         self.own_goal = own_goal
 
-    def get_reward(self, player, state: GameState, previous_action):
-        # Determine which team the agent is on, and set the opponent's goal as the objective.
-        if self.own_goal:
-            objective = state.field_info.their_goal_center
+    def reset(self, initial_state: GameState):
+        pass
+
+    def get_reward(self, player: PlayerData, state: GameState, previous_action: np.ndarray) -> float:
+        if player.team_num == BLUE_TEAM and not self.own_goal \
+                or player.team_num == ORANGE_TEAM and self.own_goal:
+            objective = np.array(ORANGE_GOAL_BACK)
         else:
-            objective = state.field_info.our_goal_center
+            objective = np.array(BLUE_GOAL_BACK)
 
-        # Compute the normalized distance between the position of the ball and the center of the opponent's goal.
+        # Compensate for moving objective to back of net
         dist = np.linalg.norm(state.ball.position - objective) - (BACK_NET_Y - BACK_WALL_Y + BALL_RADIUS)
-
-        # Return the calculated reward
         return np.exp(-0.5 * dist / BALL_MAX_SPEED)
 
 class ExampleLogger(MetricsLogger):
@@ -49,11 +55,14 @@ class ExampleLogger(MetricsLogger):
 def build_rocketsim_env():
     import rlgym_sim
     from rlgym_sim.utils.reward_functions import CombinedReward
+    from rlgym.utils.reward_functions.player_ball_rewards import FaceBallReward
     from rlgym_sim.utils.reward_functions.common_rewards import VelocityPlayerToBallReward, VelocityBallToGoalReward, \
         EventReward
     from rlgym_sim.utils.obs_builders import DefaultObs
     from rlgym_sim.utils.terminal_conditions.common_conditions import NoTouchTimeoutCondition, GoalScoredCondition
     from rlgym_sim.utils.action_parsers import ContinuousAction
+    from rlgym1_assets.action_parsers.action_parsers import WandbActionParser, LookupAction
+    from rlgym_sim.utils.obs_builders import AdvancedObs
 
     spawn_opponents = True
     team_size = 1
@@ -62,25 +71,27 @@ def build_rocketsim_env():
     timeout_seconds = 10
     timeout_ticks = int(round(timeout_seconds * game_tick_rate / tick_skip))
 
-    action_parser = ContinuousAction()
+    #action_parser = ContinuousAction()
+    action_parser = WandbActionParser(LookupAction())
     terminal_conditions = [NoTouchTimeoutCondition(timeout_ticks), GoalScoredCondition()]
 
     rewards_to_combine = (VelocityPlayerToBallReward(),
                           VelocityBallToGoalReward(),
-                          EventReward(team_goal=1, concede=-1, demo=0.1),
-                          LiuDistanceBallToGoalReward(own_goal=False)
+                          EventReward(team_goal=1, concede=-1, demo=0.1, shot=0.1, save=0.1, touch=0.01),
+                          LiuDistanceBallToGoalReward(own_goal=False),
+                          FaceBallReward()
                           )
-    reward_weights = (0.01, 0.1, 10.0, 1) #Adjust Liu Distance reward weight as needed
+    reward_weights = (0.01, 0.1, 10.0, 0.1, 0.1)
 
     reward_fn = CombinedReward(reward_functions=rewards_to_combine,
                                reward_weights=reward_weights)
 
-    obs_builder = DefaultObs(
-        pos_coef=np.asarray([1 / common_values.SIDE_WALL_X, 1 / common_values.BACK_NET_Y, 1 / common_values.CEILING_Z]),
-        ang_coef=1 / np.pi,
-        lin_vel_coef=1 / common_values.CAR_MAX_SPEED,
-        ang_vel_coef=1 / common_values.CAR_MAX_ANG_VEL)
-
+    # obs_builder = DefaultObs(
+    #     pos_coef=np.asarray([1 / common_values.SIDE_WALL_X, 1 / common_values.BACK_NET_Y, 1 / common_values.CEILING_Z]),
+    #     ang_coef=1 / np.pi,
+    #     lin_vel_coef=1 / common_values.CAR_MAX_SPEED,
+    #     ang_vel_coef=1 / common_values.CAR_MAX_ANG_VEL)
+    obs_builder = AdvancedObs()
     env = rlgym_sim.make(tick_skip=tick_skip,
                          team_size=team_size,
                          spawn_opponents=spawn_opponents,
