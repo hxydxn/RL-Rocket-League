@@ -1,0 +1,53 @@
+{
+    "os": "Windows-10-10.0.22631-SP0",
+    "python": "3.9.19",
+    "heartbeatAt": "2024-04-20T00:46:45.209365",
+    "startedAt": "2024-04-20T00:46:44.240757",
+    "docker": null,
+    "cuda": null,
+    "args": [],
+    "state": "running",
+    "program": "c:\\Users\\Hayde\\dev\\RL-Rocket-League\\example3.py",
+    "codePathLocal": "example3.py",
+    "codePath": "example3.py",
+    "git": {
+        "remote": "https://github.com/hxydxn/RL-Rocket-League.git",
+        "commit": "b5c9c7cf83d67c66b54ad72dfc3e179257dfce27"
+    },
+    "email": "haydenwarren2003@gmail.com",
+    "root": "C:/Users/Hayde/dev/RL-Rocket-League",
+    "host": "PCofChampions",
+    "username": "Hayde",
+    "executable": "C:\\Users\\Hayde\\miniconda3\\envs\\rl\\python.exe",
+    "cpu_count": 8,
+    "cpu_count_logical": 16,
+    "cpu_freq": {
+        "current": 3593.0,
+        "min": 0.0,
+        "max": 3593.0
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 3593.0,
+            "min": 0.0,
+            "max": 3593.0
+        }
+    ],
+    "disk": {
+        "/": {
+            "total": 464.47069931030273,
+            "used": 444.5470390319824
+        }
+    },
+    "gpu": "NVIDIA GeForce GTX 1070 Ti",
+    "gpu_count": 1,
+    "gpu_devices": [
+        {
+            "name": "NVIDIA GeForce GTX 1070 Ti",
+            "memory_total": 8589934592
+        }
+    ],
+    "memory": {
+        "total": 31.91360092163086
+    }
+}

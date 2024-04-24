@@ -1,0 +1,36 @@
+TwoSided = false
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[2] =
+{
+    ReferencedTextures[0] = Texture2D'FutureTech_Textures.FrameTexture_N'
+    ReferencedTextures[1] = Texture2D'FutureTech_Textures.FrameTexture_PACK'
+}
+Expressions[31] =
+{
+    Expressions[1] = MaterialExpressionStaticSwitchParameter'FutureTech.Materials.Frame_01_CamFade_Mat.MaterialExpressionStaticSwitchParameter_4'
+    Expressions[8] = MaterialExpressionStaticSwitchParameter'FutureTech.Materials.Frame_01_CamFade_Mat.MaterialExpressionStaticSwitchParameter_6'
+    Expressions[11] = MaterialExpressionVectorParameter'FutureTech.Materials.Frame_01_CamFade_Mat.MaterialExpressionVectorParameter_5'
+}
+CachedExpressionData = 
+BlendMode = BLEND_Translucent (2)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[0] = {}
+CollectedScalarParameters[0] = {}
+CollectedVectorParameters[1] =
+{
+    CollectedVectorParameters[0] =
+    {
+        Value = { R=1, G=0.0619075, B=0.0199178, A=1 }
+        Name = Color1
+        Group = None
+    }
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[0] = {}

@@ -1,0 +1,4 @@
+Diffuse=DefaultDiffuse
+Normal=DefaultNormal
+Specular=T_TDS_Specular02
+SpecPower=T_TDS_Specular02

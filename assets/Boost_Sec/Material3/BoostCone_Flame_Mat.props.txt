@@ -1,0 +1,40 @@
+TwoSided = true
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[2] =
+{
+    ReferencedTextures[0] = Texture2D'FX_Textures.Noise.Noise_Fire_02_Pack'
+    ReferencedTextures[1] = Texture2D'FX_Water_Tex.Water_01_Pack'
+}
+Expressions[44] =
+{
+    Expressions[35] = MaterialExpressionVectorParameter'Boost_Sec.AmbientBoost.Materials.BoostCone_Flame_Mat.MaterialExpressionVectorParameter_0'
+    Expressions[38] = MaterialExpressionScalarParameter'Boost_Sec.AmbientBoost.Materials.BoostCone_Flame_Mat.MaterialExpressionScalarParameter_0'
+    Expressions[39] = MaterialExpressionScalarParameter'Boost_Sec.AmbientBoost.Materials.BoostCone_Flame_Mat.MaterialExpressionScalarParameter_2'
+}
+CachedExpressionData = 
+BlendMode = BLEND_Additive (3)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[0] = {}
+CollectedScalarParameters[2] =
+{
+    CollectedScalarParameters[0] = { Value=2, Name=PanSpeed, Group=None }
+    CollectedScalarParameters[1] = { Value=0.1, Name=UVDistort, Group=None }
+}
+CollectedVectorParameters[1] =
+{
+    CollectedVectorParameters[0] =
+    {
+        Value = { R=1, G=0.248737, B=0, A=1 }
+        Name = Color
+        Group = None
+    }
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[0] = {}

@@ -1,0 +1,72 @@
+TwoSided = false
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[2] =
+{
+    ReferencedTextures[0] = Texture2D'Supersonic_Master.Textures.Basic_Trail_FB_T'
+    ReferencedTextures[1] = Texture2D'Buff_Supersonic.Textures.Time_Mask_T'
+}
+Expressions[101] =
+{
+    Expressions[1] = MaterialExpressionStaticSwitchParameter'Buff_Supersonic.Prototype.SSTrail_Master_Mat.MaterialExpressionStaticSwitchParameter_4'
+    Expressions[5] = MaterialExpressionStaticSwitchParameter'Buff_Supersonic.Prototype.SSTrail_Master_Mat.MaterialExpressionStaticSwitchParameter_9'
+    Expressions[8] = MaterialExpressionScalarParameter'Buff_Supersonic.Prototype.SSTrail_Master_Mat.MaterialExpressionScalarParameter_9'
+    Expressions[12] = MaterialExpressionScalarParameter'Buff_Supersonic.Prototype.SSTrail_Master_Mat.MaterialExpressionScalarParameter_7'
+    Expressions[16] = MaterialExpressionScalarParameter'Buff_Supersonic.Prototype.SSTrail_Master_Mat.MaterialExpressionScalarParameter_6'
+    Expressions[24] = MaterialExpressionStaticSwitchParameter'Buff_Supersonic.Prototype.SSTrail_Master_Mat.MaterialExpressionStaticSwitchParameter_3'
+    Expressions[28] = MaterialExpressionScalarParameter'Buff_Supersonic.Prototype.SSTrail_Master_Mat.MaterialExpressionScalarParameter_4'
+    Expressions[32] = MaterialExpressionScalarParameter'Buff_Supersonic.Prototype.SSTrail_Master_Mat.MaterialExpressionScalarParameter_5'
+    Expressions[39] = MaterialExpressionStaticSwitchParameter'Buff_Supersonic.Prototype.SSTrail_Master_Mat.MaterialExpressionStaticSwitchParameter_5'
+    Expressions[40] = MaterialExpressionStaticSwitchParameter'Buff_Supersonic.Prototype.SSTrail_Master_Mat.MaterialExpressionStaticSwitchParameter_0'
+    Expressions[42] = MaterialExpressionTextureSampleParameter2D'Buff_Supersonic.Prototype.SSTrail_Master_Mat.MaterialExpressionTextureSampleParameter2D_0'
+    Expressions[43] = MaterialExpressionStaticSwitchParameter'Buff_Supersonic.Prototype.SSTrail_Master_Mat.MaterialExpressionStaticSwitchParameter_2'
+    Expressions[47] = MaterialExpressionScalarParameter'Buff_Supersonic.Prototype.SSTrail_Master_Mat.MaterialExpressionScalarParameter_16'
+    Expressions[48] = MaterialExpressionScalarParameter'Buff_Supersonic.Prototype.SSTrail_Master_Mat.MaterialExpressionScalarParameter_15'
+    Expressions[54] = MaterialExpressionScalarParameter'Buff_Supersonic.Prototype.SSTrail_Master_Mat.MaterialExpressionScalarParameter_17'
+    Expressions[59] = MaterialExpressionStaticSwitchParameter'Buff_Supersonic.Prototype.SSTrail_Master_Mat.MaterialExpressionStaticSwitchParameter_7'
+    Expressions[61] = MaterialExpressionScalarParameter'Buff_Supersonic.Prototype.SSTrail_Master_Mat.MaterialExpressionScalarParameter_8'
+    Expressions[64] = MaterialExpressionStaticSwitchParameter'Buff_Supersonic.Prototype.SSTrail_Master_Mat.MaterialExpressionStaticSwitchParameter_6'
+    Expressions[65] = MaterialExpressionStaticSwitchParameter'Buff_Supersonic.Prototype.SSTrail_Master_Mat.MaterialExpressionStaticSwitchParameter_1'
+    Expressions[71] = MaterialExpressionStaticSwitchParameter'Buff_Supersonic.Prototype.SSTrail_Master_Mat.MaterialExpressionStaticSwitchParameter_10'
+    Expressions[75] = MaterialExpressionStaticSwitchParameter'Buff_Supersonic.Prototype.SSTrail_Master_Mat.MaterialExpressionStaticSwitchParameter_12'
+    Expressions[78] = MaterialExpressionScalarParameter'Buff_Supersonic.Prototype.SSTrail_Master_Mat.MaterialExpressionScalarParameter_1'
+    Expressions[81] = MaterialExpressionScalarParameter'Buff_Supersonic.Prototype.SSTrail_Master_Mat.MaterialExpressionScalarParameter_3'
+    Expressions[88] = MaterialExpressionScalarParameter'Buff_Supersonic.Prototype.SSTrail_Master_Mat.MaterialExpressionScalarParameter_2'
+    Expressions[97] = MaterialExpressionStaticSwitchParameter'Buff_Supersonic.Prototype.SSTrail_Master_Mat.MaterialExpressionStaticSwitchParameter_11'
+}
+CachedExpressionData = 
+BlendMode = BLEND_Additive (3)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[1] =
+{
+    CollectedTextureParameters[0] =
+    {
+        Texture = Texture2D'Supersonic_Master.Textures.Basic_Trail_FB_T'
+        Name = RGB_Texture
+        Group = FlipBook
+    }
+}
+CollectedScalarParameters[12] =
+{
+    CollectedScalarParameters[0] = { Value=1, Name=PanSpeed, Group=FlipBook }
+    CollectedScalarParameters[1] = { Value=0.5, Name=FBTileV, Group=FlipBook }
+    CollectedScalarParameters[2] = { Value=1, Name=FBTileU, Group=FlipBook }
+    CollectedScalarParameters[3] = { Value=1, Name=MaskTileV, Group=FlipBook }
+    CollectedScalarParameters[4] = { Value=1, Name=MaskTileU, Group=FlipBook }
+    CollectedScalarParameters[5] = { Value=4, Name=FB_Rows, Group=FlipBook }
+    CollectedScalarParameters[6] = { Value=4, Name=FB_Columns, Group=FlipBook }
+    CollectedScalarParameters[7] = { Value=1, Name=Speed, Group=FlipBook }
+    CollectedScalarParameters[8] = { Value=1, Name=Offset, Group=FlipBook }
+    CollectedScalarParameters[9] = { Value=1, Name=PanSpeed, Group=Pan }
+    CollectedScalarParameters[10] = { Value=1, Name=PanTile, Group=Pan }
+    CollectedScalarParameters[11] = { Value=3, Name=PanBrightness, Group=Pan }
+}
+CollectedVectorParameters[0] = {}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[0] = {}

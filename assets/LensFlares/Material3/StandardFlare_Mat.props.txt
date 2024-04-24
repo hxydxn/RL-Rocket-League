@@ -1,0 +1,30 @@
+TwoSided = false
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[1] = { Texture2D'LensFlares_Textures.CloudyFlare' }
+Expressions[12] =
+{
+    Expressions[7] = MaterialExpressionTextureSampleParameter2D'LensFlares.Materials.StandardFlare_Mat.MaterialExpressionTextureSampleParameter2D_0'
+}
+CachedExpressionData = 
+BlendMode = BLEND_Additive (3)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[1] =
+{
+    CollectedTextureParameters[0] =
+    {
+        Texture = Texture2D'LensFlares_Textures.CloudyFlare'
+        Name = Texture
+        Group = None
+    }
+}
+CollectedScalarParameters[0] = {}
+CollectedVectorParameters[0] = {}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[0] = {}

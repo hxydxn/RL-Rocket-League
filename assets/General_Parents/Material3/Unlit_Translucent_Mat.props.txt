@@ -1,0 +1,42 @@
+TwoSided = false
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[1] = { Texture2D'General_FX.Mat.GradientCircle01' }
+Expressions[18] =
+{
+    Expressions[0] = MaterialExpressionTextureSampleParameter2D'General_Parents.Mat.Unlit_Translucent_Mat.MaterialExpressionTextureSampleParameter2D_7'
+    Expressions[4] = MaterialExpressionScalarParameter'General_Parents.Mat.Unlit_Translucent_Mat.MaterialExpressionScalarParameter_7'
+    Expressions[5] = MaterialExpressionScalarParameter'General_Parents.Mat.Unlit_Translucent_Mat.MaterialExpressionScalarParameter_8'
+    Expressions[6] = MaterialExpressionStaticSwitchParameter'General_Parents.Mat.Unlit_Translucent_Mat.MaterialExpressionStaticSwitchParameter_13'
+    Expressions[8] = MaterialExpressionTextureSampleParameter2D'General_Parents.Mat.Unlit_Translucent_Mat.MaterialExpressionTextureSampleParameter2D_9'
+    Expressions[9] = MaterialExpressionStaticSwitchParameter'General_Parents.Mat.Unlit_Translucent_Mat.MaterialExpressionStaticSwitchParameter_16'
+    Expressions[14] = MaterialExpressionStaticSwitchParameter'General_Parents.Mat.Unlit_Translucent_Mat.MaterialExpressionStaticSwitchParameter_17'
+    Expressions[17] = MaterialExpressionStaticSwitchParameter'General_Parents.Mat.Unlit_Translucent_Mat.MaterialExpressionStaticSwitchParameter_1'
+}
+CachedExpressionData = 
+BlendMode = BLEND_Translucent (2)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[2] =
+{
+    CollectedTextureParameters[0] = { Texture=None, Name=Distortion, Group=None }
+    CollectedTextureParameters[1] =
+    {
+        Texture = Texture2D'General_FX.Mat.GradientCircle01'
+        Name = Emmisive
+        Group = None
+    }
+}
+CollectedScalarParameters[2] =
+{
+    CollectedScalarParameters[0] = { Value=1, Name=Distortion Scale, Group=None }
+    CollectedScalarParameters[1] = { Value=16, Name=Distortion Amount, Group=None }
+}
+CollectedVectorParameters[0] = {}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[0] = {}

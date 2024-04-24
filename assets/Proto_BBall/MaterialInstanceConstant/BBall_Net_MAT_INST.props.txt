@@ -1,0 +1,110 @@
+Parent = Material3'Proto_BBall.Materials.BBall_Net_MAT'
+ScalarParameterValues[14] =
+{
+    ScalarParameterValues[0] =
+    {
+        ParameterInfo = 
+        ParameterValue = 25
+        ParameterName = Mask_Blocks_Sharpness
+    }
+    ScalarParameterValues[1] =
+    {
+        ParameterInfo = 
+        ParameterValue = 0.1
+        ParameterName = Mask_Blocks_Size
+    }
+    ScalarParameterValues[2] =
+    {
+        ParameterInfo = 
+        ParameterValue = 25
+        ParameterName = Mask_Square_Sharpness
+    }
+    ScalarParameterValues[3] =
+    {
+        ParameterInfo = 
+        ParameterValue = 0.1
+        ParameterName = Mask_Square_Size
+    }
+    ScalarParameterValues[4] =
+    {
+        ParameterInfo = 
+        ParameterValue = 12
+        ParameterName = Mask_Tile
+    }
+    ScalarParameterValues[5] =
+    {
+        ParameterInfo = 
+        ParameterValue = 4
+        ParameterName = BlockIntensity
+    }
+    ScalarParameterValues[6] =
+    {
+        ParameterInfo = 
+        ParameterValue = 0.3
+        ParameterName = DistortAmount
+    }
+    ScalarParameterValues[7] =
+    {
+        ParameterInfo = 
+        ParameterValue = 1
+        ParameterName = DistortTile
+    }
+    ScalarParameterValues[8] =
+    {
+        ParameterInfo = 
+        ParameterValue = 0.07
+        ParameterName = FadeAmmount
+    }
+    ScalarParameterValues[9] =
+    {
+        ParameterInfo = 
+        ParameterValue = 10
+        ParameterName = FadeIntensity
+    }
+    ScalarParameterValues[10] =
+    {
+        ParameterInfo = 
+        ParameterValue = -3
+        ParameterName = RimScanSpeed
+    }
+    ScalarParameterValues[11] =
+    {
+        ParameterInfo = 
+        ParameterValue = -0.5
+        ParameterName = ScanSpeed
+    }
+    ScalarParameterValues[12] =
+    {
+        ParameterInfo = 
+        ParameterValue = 6
+        ParameterName = WaveLength
+    }
+    ScalarParameterValues[13] =
+    {
+        ParameterInfo = 
+        ParameterValue = 0.15
+        ParameterName = WaveTile
+    }
+}
+TextureParameterValues[1] =
+{
+    TextureParameterValues[0] =
+    {
+        ParameterInfo = 
+        ParameterValue = Texture2D'General_FX.Mat.Noise01_D'
+        ParameterName = DistortTexture
+    }
+}
+VectorParameterValues[0] = {}
+BasePropertyOverrides = 
+StaticParameters = 
+RuntimeVirtualTextureParameterValues[0] = {}
+FontParameterValues[0] = {}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[0] = {}

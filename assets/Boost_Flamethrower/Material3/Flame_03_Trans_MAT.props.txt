@@ -1,0 +1,24 @@
+TwoSided = false
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[3] =
+{
+    ReferencedTextures[0] = Texture2D'FX_Textures.Noise.Noise_Fire_01_N'
+    ReferencedTextures[1] = Texture2D'FX_Water_02.Tex.Water_01_Pack'
+    ReferencedTextures[2] = Texture2D'Boost_Flamethrower.SmokeMask_02_T'
+}
+Expressions[40] = {  }
+CachedExpressionData = 
+BlendMode = BLEND_Translucent (2)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[0] = {}
+CollectedScalarParameters[0] = {}
+CollectedVectorParameters[0] = {}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[0] = {}

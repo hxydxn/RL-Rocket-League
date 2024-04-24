@@ -1,0 +1,79 @@
+TwoSided = true
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[2] =
+{
+    ReferencedTextures[0] = Texture2D'explosion_Portal.Textures.UVDistort_02_T'
+    ReferencedTextures[1] = Texture2D'wheel_reactor.Textures.Lightning_Noise_RGB_02_T'
+}
+Expressions[139] =
+{
+    Expressions[2] = MaterialExpressionTextureSampleParameter2D'Buff_Supersonic.Materials.SupersonicAura_Mat.MaterialExpressionTextureSampleParameter2D_11'
+    Expressions[16] = MaterialExpressionTextureSampleParameter2D'Buff_Supersonic.Materials.SupersonicAura_Mat.MaterialExpressionTextureSampleParameter2D_12'
+    Expressions[37] = MaterialExpressionTextureSampleParameter2D'Buff_Supersonic.Materials.SupersonicAura_Mat.MaterialExpressionTextureSampleParameter2D_8'
+    Expressions[38] = MaterialExpressionTextureSampleParameter2D'Buff_Supersonic.Materials.SupersonicAura_Mat.MaterialExpressionTextureSampleParameter2D_7'
+    Expressions[114] = MaterialExpressionScalarParameter'Buff_Supersonic.Materials.SupersonicAura_Mat.MaterialExpressionScalarParameter_0'
+    Expressions[117] = MaterialExpressionScalarParameter'Buff_Supersonic.Materials.SupersonicAura_Mat.MaterialExpressionScalarParameter_7'
+    Expressions[118] = MaterialExpressionScalarParameter'Buff_Supersonic.Materials.SupersonicAura_Mat.MaterialExpressionScalarParameter_1'
+    Expressions[121] = MaterialExpressionScalarParameter'Buff_Supersonic.Materials.SupersonicAura_Mat.MaterialExpressionScalarParameter_3'
+    Expressions[123] = MaterialExpressionStaticSwitchParameter'Buff_Supersonic.Materials.SupersonicAura_Mat.MaterialExpressionStaticSwitchParameter_1'
+    Expressions[125] = MaterialExpressionTextureSampleParameter2D'Buff_Supersonic.Materials.SupersonicAura_Mat.MaterialExpressionTextureSampleParameter2D_1'
+    Expressions[126] = MaterialExpressionVectorParameter'Buff_Supersonic.Materials.SupersonicAura_Mat.MaterialExpressionVectorParameter_1'
+    Expressions[137] = MaterialExpressionScalarParameter'Buff_Supersonic.Materials.SupersonicAura_Mat.MaterialExpressionScalarParameter_6'
+}
+CachedExpressionData = 
+BlendMode = BLEND_Additive (3)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[5] =
+{
+    CollectedTextureParameters[0] =
+    {
+        Texture = Texture2D'explosion_Portal.Textures.UVDistort_02_T'
+        Name = PortalRingTexture_02
+        Group = None
+    }
+    CollectedTextureParameters[1] =
+    {
+        Texture = Texture2D'explosion_Portal.Textures.UVDistort_02_T'
+        Name = PortalRingTexture_02
+        Group = None
+    }
+    CollectedTextureParameters[2] =
+    {
+        Texture = Texture2D'wheel_reactor.Textures.Lightning_Noise_RGB_02_T'
+        Name = PortalRingTexture
+        Group = None
+    }
+    CollectedTextureParameters[3] =
+    {
+        Texture = Texture2D'wheel_reactor.Textures.Lightning_Noise_RGB_02_T'
+        Name = PortalRingTexture
+        Group = None
+    }
+    CollectedTextureParameters[4] = { Texture=None, Name=ColorLookup, Group=None }
+}
+CollectedScalarParameters[5] =
+{
+    CollectedScalarParameters[0] = { Value=6, Name=Sharpness, Group=None }
+    CollectedScalarParameters[1] = { Value=3, Name=Distortion, Group=None }
+    CollectedScalarParameters[2] = { Value=1, Name=PanSpeed, Group=None }
+    CollectedScalarParameters[3] = { Value=4, Name=tile, Group=None }
+    CollectedScalarParameters[4] = { Value=1, Name=EdgeFade, Group=Details }
+}
+CollectedVectorParameters[1] =
+{
+    CollectedVectorParameters[0] =
+    {
+        Value = { R=0.0558781, G=0.701321, B=1, A=0 }
+        Name = TeamColor
+        Group = None
+    }
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[0] = {}

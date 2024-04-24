@@ -1,0 +1,43 @@
+TwoSided = false
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[3] =
+{
+    ReferencedTextures[0] = Texture2D'FX_Textures.Noise.Noise_Fire_01_N'
+    ReferencedTextures[1] = Texture2D'FX_Water_02.Tex.Water_01_Pack'
+    ReferencedTextures[2] = Texture2D'Boost_Flamethrower.SmokeMask_02_T'
+}
+Expressions[43] =
+{
+    Expressions[21] = MaterialExpressionScalarParameter'Boost_Sec.AmbientFlame_Trans_MAT.MaterialExpressionScalarParameter_0'
+    Expressions[22] = MaterialExpressionTextureSampleParameter2D'Boost_Sec.AmbientFlame_Trans_MAT.MaterialExpressionTextureSampleParameter2D_0'
+    Expressions[30] = MaterialExpressionScalarParameter'Boost_Sec.AmbientFlame_Trans_MAT.MaterialExpressionScalarParameter_2'
+    Expressions[41] = MaterialExpressionScalarParameter'Boost_Sec.AmbientFlame_Trans_MAT.MaterialExpressionScalarParameter_1'
+}
+CachedExpressionData = 
+BlendMode = BLEND_Translucent (2)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[1] =
+{
+    CollectedTextureParameters[0] =
+    {
+        Texture = Texture2D'FX_Water_02.Tex.Water_01_Pack'
+        Name = NoiseTexture
+        Group = None
+    }
+}
+CollectedScalarParameters[3] =
+{
+    CollectedScalarParameters[0] = { Value=3, Name=Brightness, Group=None }
+    CollectedScalarParameters[1] = { Value=8, Name=MaskBrightness, Group=None }
+    CollectedScalarParameters[2] = { Value=0.05, Name=UVDistort, Group=None }
+}
+CollectedVectorParameters[0] = {}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[0] = {}

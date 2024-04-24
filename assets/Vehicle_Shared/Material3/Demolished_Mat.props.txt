@@ -1,0 +1,55 @@
+TwoSided = true
+bDisableDepthTest = false
+bIsMasked = true
+ReferencedTextures[7] =
+{
+    ReferencedTextures[0] = Texture2D'Engine_Incinerator_Textures.Engine_Incinerator_Normal'
+    ReferencedTextures[1] = Texture2D'City_Textures.Asphalt_N'
+    ReferencedTextures[2] = Texture2D'Tyler_Test.Textures.Dirt_MASK'
+    ReferencedTextures[3] = Texture2D'Engine_Incinerator_Textures.Engine_Incinerator_Diffuse'
+    ReferencedTextures[4] = Texture2D'City_Textures.Asphalt_D'
+    ReferencedTextures[5] = Texture2D'Vehicle_Shared.Textures.Dust_T'
+    ReferencedTextures[6] = Texture2D'Vehicle_Shared.Textures.CoordMask'
+}
+Expressions[35] =
+{
+    Expressions[16] = MaterialExpressionVectorParameter'Vehicle_Shared.Materials.Demolished_Mat.MaterialExpressionVectorParameter_0'
+    Expressions[31] = MaterialExpressionTextureSampleParameter2D'Vehicle_Shared.Materials.Demolished_Mat.MaterialExpressionTextureSampleParameter2D_0'
+    Expressions[32] = MaterialExpressionTextureSampleParameter2D'Vehicle_Shared.Materials.Demolished_Mat.MaterialExpressionTextureSampleParameter2D_1'
+}
+CachedExpressionData = 
+BlendMode = BLEND_Masked (1)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[2] =
+{
+    CollectedTextureParameters[0] =
+    {
+        Texture = Texture2D'Engine_Incinerator_Textures.Engine_Incinerator_Normal'
+        Name = Normal
+        Group = None
+    }
+    CollectedTextureParameters[1] =
+    {
+        Texture = Texture2D'Engine_Incinerator_Textures.Engine_Incinerator_Diffuse'
+        Name = Diffuse
+        Group = None
+    }
+}
+CollectedScalarParameters[0] = {}
+CollectedVectorParameters[1] =
+{
+    CollectedVectorParameters[0] =
+    {
+        Value = { R=6, G=0.7, B=0.2, A=6 }
+        Name = Color
+        Group = None
+    }
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[0] = {}

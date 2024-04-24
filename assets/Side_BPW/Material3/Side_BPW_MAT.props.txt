@@ -1,0 +1,51 @@
+TwoSided = false
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[3] =
+{
+    ReferencedTextures[0] = Texture2D'Side_BPW_Textures.Side_BPW_Normal'
+    ReferencedTextures[1] = Texture2D'Side_BPW_Textures.Side_BPW_Diffuse'
+    ReferencedTextures[2] = Texture2D'General_FX.Mat.Swirls_D'
+}
+Expressions[31] =
+{
+    Expressions[0] = MaterialExpressionTextureSampleParameter2D'Side_BPW.Side_BPW_MAT.MaterialExpressionTextureSampleParameter2D_5'
+    Expressions[1] = MaterialExpressionTextureSampleParameter2D'Side_BPW.Side_BPW_MAT.MaterialExpressionTextureSampleParameter2D_4'
+    Expressions[4] = MaterialExpressionVectorParameter'Side_BPW.Side_BPW_MAT.MaterialExpressionVectorParameter_2'
+}
+CachedExpressionData = 
+BlendMode = BLEND_Opaque (0)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[2] =
+{
+    CollectedTextureParameters[0] =
+    {
+        Texture = Texture2D'Side_BPW_Textures.Side_BPW_Normal'
+        Name = Normal
+        Group = None
+    }
+    CollectedTextureParameters[1] =
+    {
+        Texture = Texture2D'Side_BPW_Textures.Side_BPW_Diffuse'
+        Name = Diffuse
+        Group = None
+    }
+}
+CollectedScalarParameters[0] = {}
+CollectedVectorParameters[1] =
+{
+    CollectedVectorParameters[0] =
+    {
+        Value = { R=0.75, G=0.75, B=0.75, A=0.5 }
+        Name = FresnelColor
+        Group = None
+    }
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[0] = {}

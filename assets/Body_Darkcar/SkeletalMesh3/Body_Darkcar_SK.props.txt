@@ -1,0 +1,129 @@
+LODInfo[1] =
+{
+    LODInfo[0] =
+    {
+        DisplayFactor = 0
+        LODHysteresis = 0.02
+        LODMaterialMap[0] = {}
+        bEnableShadowCasting[2] = { true, true }
+        BonesToRemove[0] = {}
+        BonesToPrioritize[0] = {}
+        SourceImportFilename = ""
+    }
+}
+Sockets[13] =
+{
+    Sockets[0] =
+    {
+        SocketName = RocketBoost
+        BoneName = chassis_jnt
+        RelativeLocation = { X=-61.9053, Y=0, Z=3.75 }
+        RelativeRotation = { Yaw=0, Pitch=0, Roll=0 }
+        RelativeScale = { X=1, Y=1, Z=1 }
+    }
+    Sockets[1] =
+    {
+        SocketName = AntennaSocket
+        BoneName = chassis_jnt
+        RelativeLocation = { X=-13.5221, Y=-17.7708, Z=12.5 }
+        RelativeRotation = { Yaw=0, Pitch=0, Roll=0 }
+        RelativeScale = { X=1, Y=1, Z=1 }
+    }
+    Sockets[2] =
+    {
+        SocketName = HatSocket
+        BoneName = chassis_jnt
+        RelativeLocation = { X=-6.72362, Y=0, Z=22 }
+        RelativeRotation = { Yaw=0, Pitch=0, Roll=0 }
+        RelativeScale = { X=1, Y=1, Z=1 }
+    }
+    Sockets[3] =
+    {
+        SocketName = FrontSocket
+        BoneName = chassis_jnt
+        RelativeLocation = { X=86.025, Y=0, Z=-7 }
+        RelativeRotation = { Yaw=0, Pitch=0, Roll=0 }
+        RelativeScale = { X=1, Y=1, Z=1 }
+    }
+    Sockets[4] =
+    {
+        SocketName = Underglow
+        BoneName = chassis_jnt
+        RelativeLocation = { X=0, Y=0, Z=-18.25 }
+        RelativeRotation = { Yaw=0, Pitch=0, Roll=0 }
+        RelativeScale = { X=1, Y=1, Z=1 }
+    }
+    Sockets[5] =
+    {
+        SocketName = L_Front_Light_03
+        BoneName = chassis_jnt
+        RelativeLocation = { X=81.5, Y=-3, Z=1.75 }
+        RelativeRotation = { Yaw=0, Pitch=0, Roll=0 }
+        RelativeScale = { X=1, Y=1, Z=1 }
+    }
+    Sockets[6] =
+    {
+        SocketName = R_Front_Light_03
+        BoneName = chassis_jnt
+        RelativeLocation = { X=81.5, Y=3, Z=1.75 }
+        RelativeRotation = { Yaw=0, Pitch=0, Roll=0 }
+        RelativeScale = { X=1, Y=1, Z=1 }
+    }
+    Sockets[7] =
+    {
+        SocketName = L_Front_Light_01
+        BoneName = FL_Pivot_jnt
+        RelativeLocation = { X=17, Y=-7.5, Z=1 }
+        RelativeRotation = { Yaw=0, Pitch=0, Roll=0 }
+        RelativeScale = { X=1, Y=1, Z=1 }
+    }
+    Sockets[8] =
+    {
+        SocketName = R_Front_Light_01
+        BoneName = FR_Pivot_jnt
+        RelativeLocation = { X=17, Y=7.5, Z=1 }
+        RelativeRotation = { Yaw=0, Pitch=0, Roll=0 }
+        RelativeScale = { X=1, Y=1, Z=1 }
+    }
+    Sockets[9] =
+    {
+        SocketName = R_Front_Light_02
+        BoneName = FR_Pivot_jnt
+        RelativeLocation = { X=8, Y=-3.5, Z=11 }
+        RelativeRotation = { Yaw=0, Pitch=0, Roll=0 }
+        RelativeScale = { X=1, Y=1, Z=1 }
+    }
+    Sockets[10] =
+    {
+        SocketName = L_Front_Light_02
+        BoneName = FL_Pivot_jnt
+        RelativeLocation = { X=8, Y=3.5, Z=11 }
+        RelativeRotation = { Yaw=0, Pitch=0, Roll=0 }
+        RelativeScale = { X=1, Y=1, Z=1 }
+    }
+    Sockets[11] =
+    {
+        SocketName = R_Rear_Light
+        BoneName = BR_WheelTranslation_jnt
+        RelativeLocation = { X=-17, Y=13, Z=15.1 }
+        RelativeRotation = { Yaw=32768, Pitch=0, Roll=0 }
+        RelativeScale = { X=1, Y=1, Z=1 }
+    }
+    Sockets[12] =
+    {
+        SocketName = L_Rear_Light
+        BoneName = BL_WheelTranslation_jnt
+        RelativeLocation = { X=-17, Y=-13, Z=15.1 }
+        RelativeRotation = { Yaw=32768, Pitch=0, Roll=0 }
+        RelativeScale = { X=1, Y=1, Z=1 }
+    }
+}
+bHasVertexColors = true
+EnableTwistBoneFixers = true
+EnableClavicleFixer = true
+Skeleton = None
+Materials[2] =
+{
+    Materials[0] = MaterialInstanceConstant'Body_Darkcar.Materials.MIC_Darkcar_Chassis'
+    Materials[1] = Material3'Body_Darkcar.Materials.DarkCar_Body_Master_Mat'
+}

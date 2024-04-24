@@ -1,0 +1,82 @@
+Parent = Material3'Vehicle_Parent_Materials.Body_Paintable_Mat'
+ScalarParameterValues[2] =
+{
+    ScalarParameterValues[0] =
+    {
+        ParameterInfo = 
+        ParameterValue = 0
+        ParameterName = F1Type
+    }
+    ScalarParameterValues[1] =
+    {
+        ParameterInfo = 
+        ParameterValue = 0
+        ParameterName = F2Type
+    }
+}
+TextureParameterValues[5] =
+{
+    TextureParameterValues[0] =
+    {
+        ParameterInfo = 
+        ParameterValue = Texture2D'Body_CarCar.Body_CarCar_Curvature'
+        ParameterName = CurvaturePack
+    }
+    TextureParameterValues[1] =
+    {
+        ParameterInfo = 
+        ParameterValue = Texture2D'Body_CarCar.Body_CarCar_Diffuse'
+        ParameterName = Diffuse
+    }
+    TextureParameterValues[2] =
+    {
+        ParameterInfo = 
+        ParameterValue = Texture2D'Detail_Blank.Blank_N'
+        ParameterName = F1DetailNormal
+    }
+    TextureParameterValues[3] =
+    {
+        ParameterInfo = 
+        ParameterValue = Texture2D'Detail_Blank.Blank_N'
+        ParameterName = F2DetailNormal
+    }
+    TextureParameterValues[4] =
+    {
+        ParameterInfo = 
+        ParameterValue = Texture2D'Body_CarCar.Body_CarCar_BlankSkin_RGB'
+        ParameterName = Skin
+    }
+}
+VectorParameterValues[3] =
+{
+    VectorParameterValues[0] =
+    {
+        ParameterInfo = 
+        ParameterValue = { R=0, G=1, B=0.00950933, A=1 }
+        ParameterName = CustomColor
+    }
+    VectorParameterValues[1] =
+    {
+        ParameterInfo = 
+        ParameterValue = { R=0, G=0.0321108, B=0.51, A=1 }
+        ParameterName = TeamColor
+    }
+    VectorParameterValues[2] =
+    {
+        ParameterInfo = 
+        ParameterValue = { R=0.08, G=0.08, B=0.08, A=1 }
+        ParameterName = TrimColor
+    }
+}
+BasePropertyOverrides = 
+StaticParameters = 
+RuntimeVirtualTextureParameterValues[0] = {}
+FontParameterValues[0] = {}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[0] = {}

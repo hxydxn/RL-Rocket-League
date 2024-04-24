@@ -1,0 +1,64 @@
+TwoSided = false
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[3] =
+{
+    ReferencedTextures[0] = Texture2D'Terrain_Noise_Tex.Noise_Dirt_01_N'
+    ReferencedTextures[1] = TextureCube3'FX_Textures.ENV.Cubemap_tex'
+    ReferencedTextures[2] = Texture2D'FX_Textures.Gradients.2DGrad_Sine_01_Pack'
+}
+Expressions[35] =
+{
+    Expressions[13] = MaterialExpressionVectorParameter'Stadium_Hoops_IVTK.BBall_DarkMetal_Mat_HoopFrame_IVTK.MaterialExpressionVectorParameter_4'
+    Expressions[23] = MaterialExpressionTextureSampleParameter2D'Stadium_Hoops_IVTK.BBall_DarkMetal_Mat_HoopFrame_IVTK.MaterialExpressionTextureSampleParameter2D_4'
+    Expressions[30] = MaterialExpressionScalarParameter'Stadium_Hoops_IVTK.BBall_DarkMetal_Mat_HoopFrame_IVTK.MaterialExpressionScalarParameter_52'
+    Expressions[31] = MaterialExpressionScalarParameter'Stadium_Hoops_IVTK.BBall_DarkMetal_Mat_HoopFrame_IVTK.MaterialExpressionScalarParameter_53'
+    Expressions[32] = MaterialExpressionScalarParameter'Stadium_Hoops_IVTK.BBall_DarkMetal_Mat_HoopFrame_IVTK.MaterialExpressionScalarParameter_54'
+    Expressions[33] = MaterialExpressionScalarParameter'Stadium_Hoops_IVTK.BBall_DarkMetal_Mat_HoopFrame_IVTK.MaterialExpressionScalarParameter_55'
+}
+CachedExpressionData = 
+BlendMode = BLEND_Translucent (2)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[1] =
+{
+    CollectedTextureParameters[0] =
+    {
+        Texture = Texture2D'FX_Textures.Gradients.2DGrad_Sine_01_Pack'
+        Name = LightPattern
+        Group = None
+    }
+}
+CollectedScalarParameters[4] =
+{
+    CollectedScalarParameters[0] = { Value=10, Name=Gradient Falloff, Group=InvisiTek }
+    CollectedScalarParameters[1] =
+    {
+        Value = -0.2
+        Name = Gradient Size Adjust
+        Group = InvisiTek
+    }
+    CollectedScalarParameters[2] =
+    {
+        Value = 30
+        Name = Fresnel Intensity
+        Group = InvisiTek
+    }
+    CollectedScalarParameters[3] = { Value=2.5, Name=Fresnel Power, Group=InvisiTek }
+}
+CollectedVectorParameters[1] =
+{
+    CollectedVectorParameters[0] =
+    {
+        Value = { R=0, G=0, B=0, A=0 }
+        Name = LightControl
+        Group = None
+    }
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[0] = {}

@@ -1,0 +1,47 @@
+TwoSided = false
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[8] =
+{
+    ReferencedTextures[0] = Texture2D'FutureTech_Textures.FrameTexture_N'
+    ReferencedTextures[1] = Texture2D'Stadiums_DetailNormals.ENV_BrushedMetal_N'
+    ReferencedTextures[2] = Texture2D'Stadiums_DetailNormals.ENV_CarbonFiber_N'
+    ReferencedTextures[3] = Texture2D'FutureTech_Textures.FrameTexture_PACK'
+    ReferencedTextures[4] = Texture2D'City_Textures.TireMarks'
+    ReferencedTextures[5] = Texture2D'FX_Textures.Noise.Noise_Smoke_03_Pack'
+    ReferencedTextures[7] = Texture2D'Vehicle_Parent_Textures.ENVPack'
+}
+Expressions[114] =
+{
+    Expressions[3] = MaterialExpressionStaticSwitchParameter'FutureTech.Materials.Frame_01_Mat.MaterialExpressionStaticSwitchParameter_4'
+    Expressions[62] = MaterialExpressionStaticSwitchParameter'FutureTech.Materials.Frame_01_Mat.MaterialExpressionStaticSwitchParameter_6'
+    Expressions[65] = MaterialExpressionVectorParameter'FutureTech.Materials.Frame_01_Mat.MaterialExpressionVectorParameter_5'
+    Expressions[71] = MaterialExpressionScalarParameter'FutureTech.Materials.Frame_01_Mat.MaterialExpressionScalarParameter_3'
+    Expressions[82] = MaterialExpressionScalarParameter'FutureTech.Materials.Frame_01_Mat.MaterialExpressionScalarParameter_2'
+}
+CachedExpressionData = 
+BlendMode = BLEND_Opaque (0)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[0] = {}
+CollectedScalarParameters[2] =
+{
+    CollectedScalarParameters[0] = { Value=1, Name=Brightness, Group=None }
+    CollectedScalarParameters[1] = { Value=16, Name=ENVAmount, Group=None }
+}
+CollectedVectorParameters[1] =
+{
+    CollectedVectorParameters[0] =
+    {
+        Value = { R=1, G=0.0619075, B=0.0199178, A=1 }
+        Name = Color1
+        Group = None
+    }
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[0] = {}

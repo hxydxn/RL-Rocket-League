@@ -1,0 +1,29 @@
+TwoSided = false
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[1] =
+{
+    ReferencedTextures[0] = Texture2D'FX_Textures.Gradients.Radial_Generic_01_Pack'
+}
+Expressions[28] =
+{
+    Expressions[7] = MaterialExpressionTextureSampleParameter2D'Buff_Supersonic.Materials.SupersonicStreaks_Mat.MaterialExpressionTextureSampleParameter2D_2'
+    Expressions[16] = MaterialExpressionStaticSwitchParameter'Buff_Supersonic.Materials.SupersonicStreaks_Mat.MaterialExpressionStaticSwitchParameter_0'
+}
+CachedExpressionData = 
+BlendMode = BLEND_Additive (3)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[1] =
+{
+    CollectedTextureParameters[0] = { Texture=None, Name=ColorLookup, Group=None }
+}
+CollectedScalarParameters[0] = {}
+CollectedVectorParameters[0] = {}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[0] = {}

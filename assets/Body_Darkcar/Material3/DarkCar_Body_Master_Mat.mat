@@ -1,0 +1,7 @@
+Diffuse=DarkCar_Body_D
+Normal=Matte_N
+Other[0]=Corroded_N
+Other[1]=DarkCar_BodyMasks
+Other[2]=Noise_Smoke_03_Pack
+Other[3]=DarkCar_RGB
+Other[4]=SpecGlow02_Cube

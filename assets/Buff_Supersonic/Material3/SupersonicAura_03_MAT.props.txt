@@ -1,0 +1,40 @@
+TwoSided = true
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[1] =
+{
+    ReferencedTextures[0] = Texture2D'explosion_Portal.Textures.UVDistort_02_T'
+}
+Expressions[81] =
+{
+    Expressions[27] = MaterialExpressionTextureSampleParameter2D'Buff_Supersonic.Materials.SupersonicAura_03_MAT.MaterialExpressionTextureSampleParameter2D_6'
+    Expressions[39] = MaterialExpressionTextureSampleParameter2D'Buff_Supersonic.Materials.SupersonicAura_03_MAT.MaterialExpressionTextureSampleParameter2D_7'
+}
+CachedExpressionData = 
+BlendMode = BLEND_Translucent (2)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[2] =
+{
+    CollectedTextureParameters[0] =
+    {
+        Texture = Texture2D'explosion_Portal.Textures.UVDistort_02_T'
+        Name = PortalRingTexture_02
+        Group = None
+    }
+    CollectedTextureParameters[1] =
+    {
+        Texture = Texture2D'explosion_Portal.Textures.UVDistort_02_T'
+        Name = PortalRingTexture_02
+        Group = None
+    }
+}
+CollectedScalarParameters[0] = {}
+CollectedVectorParameters[0] = {}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[0] = {}

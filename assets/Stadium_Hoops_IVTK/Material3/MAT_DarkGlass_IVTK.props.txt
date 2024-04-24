@@ -1,0 +1,88 @@
+TwoSided = false
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[6] =
+{
+    ReferencedTextures[0] = Texture2D'Labs_Assets.Textures.TILE_Labs_Trim00_N'
+    ReferencedTextures[1] = Texture2D'Detail_BrushesMetal.BrushedMetal_N'
+    ReferencedTextures[2] = Texture2D'Labs_Assets.Textures.TILE_Labs_Trim00_RGB'
+    ReferencedTextures[3] = Texture2D'FX_Textures.Noise.Noise_Shapes_01_Pack'
+    ReferencedTextures[5] = Texture2D'FX_Textures.Gradients.2DGrad_Sine_01_Pack'
+}
+Expressions[74] =
+{
+    Expressions[1] = MaterialExpressionTextureSampleParameter2D'Stadium_Hoops_IVTK.MAT_DarkGlass_IVTK.MaterialExpressionTextureSampleParameter2D_0'
+    Expressions[6] = MaterialExpressionTextureSampleParameter2D'Stadium_Hoops_IVTK.MAT_DarkGlass_IVTK.MaterialExpressionTextureSampleParameter2D_2'
+    Expressions[15] = MaterialExpressionVectorParameter'Stadium_Hoops_IVTK.MAT_DarkGlass_IVTK.MaterialExpressionVectorParameter_1'
+    Expressions[20] = MaterialExpressionTextureSampleParameter2D'Stadium_Hoops_IVTK.MAT_DarkGlass_IVTK.MaterialExpressionTextureSampleParameter2D_3'
+    Expressions[50] = MaterialExpressionTextureSampleParameter2D'Stadium_Hoops_IVTK.MAT_DarkGlass_IVTK.MaterialExpressionTextureSampleParameter2D_4'
+    Expressions[58] = MaterialExpressionStaticSwitchParameter'Stadium_Hoops_IVTK.MAT_DarkGlass_IVTK.MaterialExpressionStaticSwitchParameter_0'
+    Expressions[69] = MaterialExpressionScalarParameter'Stadium_Hoops_IVTK.MAT_DarkGlass_IVTK.MaterialExpressionScalarParameter_76'
+    Expressions[70] = MaterialExpressionScalarParameter'Stadium_Hoops_IVTK.MAT_DarkGlass_IVTK.MaterialExpressionScalarParameter_77'
+    Expressions[71] = MaterialExpressionScalarParameter'Stadium_Hoops_IVTK.MAT_DarkGlass_IVTK.MaterialExpressionScalarParameter_78'
+    Expressions[72] = MaterialExpressionScalarParameter'Stadium_Hoops_IVTK.MAT_DarkGlass_IVTK.MaterialExpressionScalarParameter_79'
+}
+CachedExpressionData = 
+BlendMode = BLEND_Translucent (2)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[4] =
+{
+    CollectedTextureParameters[0] =
+    {
+        Texture = Texture2D'Labs_Assets.Textures.TILE_Labs_Trim00_RGB'
+        Name = RGB_Pack
+        Group = None
+    }
+    CollectedTextureParameters[1] =
+    {
+        Texture = Texture2D'Labs_Assets.Textures.TILE_Labs_Trim00_N'
+        Name = Normal
+        Group = None
+    }
+    CollectedTextureParameters[2] =
+    {
+        Texture = Texture2D'FX_Textures.Gradients.2DGrad_Sine_01_Pack'
+        Name = LightPattern
+        Group = None
+    }
+    CollectedTextureParameters[3] =
+    {
+        Texture = Texture2D'Labs_Assets.Textures.TILE_Labs_Trim00_RGB'
+        Name = RGB_Pack
+        Group = None
+    }
+}
+CollectedScalarParameters[4] =
+{
+    CollectedScalarParameters[0] = { Value=10, Name=Gradient Falloff, Group=InvisiTek }
+    CollectedScalarParameters[1] =
+    {
+        Value = 0.05
+        Name = Gradient Size Adjust
+        Group = InvisiTek
+    }
+    CollectedScalarParameters[2] =
+    {
+        Value = 20
+        Name = Fresnel Intensity
+        Group = InvisiTek
+    }
+    CollectedScalarParameters[3] = { Value=3, Name=Fresnel Power, Group=InvisiTek }
+}
+CollectedVectorParameters[1] =
+{
+    CollectedVectorParameters[0] =
+    {
+        Value = { R=0, G=0, B=0, A=0 }
+        Name = LightControl
+        Group = None
+    }
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[0] = {}

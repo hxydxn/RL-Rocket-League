@@ -1,0 +1,65 @@
+TwoSided = false
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[8] =
+{
+    ReferencedTextures[0] = Texture2D'FutureTech_Textures.FrameTexture_N'
+    ReferencedTextures[1] = Texture2D'Stadiums_DetailNormals.ENV_BrushedMetal_N'
+    ReferencedTextures[2] = Texture2D'Stadiums_DetailNormals.ENV_CarbonFiber_N'
+    ReferencedTextures[3] = Texture2D'FutureTech_Textures.FrameTexture_PACK'
+    ReferencedTextures[4] = Texture2D'City_Textures.TireMarks'
+    ReferencedTextures[5] = Texture2D'FX_Textures.Noise.Noise_Smoke_03_Pack'
+    ReferencedTextures[7] = Texture2D'Vehicle_Parent_Textures.ENVPack'
+}
+Expressions[108] =
+{
+    Expressions[4] = MaterialExpressionStaticSwitchParameter'Stadium_DFH_IVTK.Frame_01_Mat_IVTK_Master.MaterialExpressionStaticSwitchParameter_4'
+    Expressions[35] = MaterialExpressionScalarParameter'Stadium_DFH_IVTK.Frame_01_Mat_IVTK_Master.MaterialExpressionScalarParameter_11'
+    Expressions[36] = MaterialExpressionScalarParameter'Stadium_DFH_IVTK.Frame_01_Mat_IVTK_Master.MaterialExpressionScalarParameter_10'
+    Expressions[37] = MaterialExpressionScalarParameter'Stadium_DFH_IVTK.Frame_01_Mat_IVTK_Master.MaterialExpressionScalarParameter_9'
+    Expressions[41] = MaterialExpressionScalarParameter'Stadium_DFH_IVTK.Frame_01_Mat_IVTK_Master.MaterialExpressionScalarParameter_8'
+    Expressions[65] = MaterialExpressionStaticSwitchParameter'Stadium_DFH_IVTK.Frame_01_Mat_IVTK_Master.MaterialExpressionStaticSwitchParameter_6'
+    Expressions[66] = MaterialExpressionVectorParameter'Stadium_DFH_IVTK.Frame_01_Mat_IVTK_Master.MaterialExpressionVectorParameter_5'
+    Expressions[72] = MaterialExpressionScalarParameter'Stadium_DFH_IVTK.Frame_01_Mat_IVTK_Master.MaterialExpressionScalarParameter_3'
+    Expressions[83] = MaterialExpressionScalarParameter'Stadium_DFH_IVTK.Frame_01_Mat_IVTK_Master.MaterialExpressionScalarParameter_2'
+}
+CachedExpressionData = 
+BlendMode = BLEND_Translucent (2)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[0] = {}
+CollectedScalarParameters[6] =
+{
+    CollectedScalarParameters[0] = { Value=3, Name=Fresnel Power, Group=InvisiTek }
+    CollectedScalarParameters[1] =
+    {
+        Value = 20
+        Name = Fresnel Intensity
+        Group = InvisiTek
+    }
+    CollectedScalarParameters[2] =
+    {
+        Value = 0.05
+        Name = Gradient Size Adjust
+        Group = InvisiTek
+    }
+    CollectedScalarParameters[3] = { Value=10, Name=Gradient Falloff, Group=InvisiTek }
+    CollectedScalarParameters[4] = { Value=1, Name=Brightness, Group=None }
+    CollectedScalarParameters[5] = { Value=16, Name=ENVAmount, Group=None }
+}
+CollectedVectorParameters[1] =
+{
+    CollectedVectorParameters[0] =
+    {
+        Value = { R=1, G=0.0619075, B=0.0199178, A=1 }
+        Name = Color1
+        Group = None
+    }
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[0] = {}

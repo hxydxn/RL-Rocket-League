@@ -1,0 +1,72 @@
+TwoSided = false
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[8] =
+{
+    ReferencedTextures[0] = Texture2D'Detail_Matte.Matte_N'
+    ReferencedTextures[1] = Texture2D'Detail_Corroded.Corroded_N'
+    ReferencedTextures[2] = Texture2D'Body_Darkcar.DarkCar_BodyMasks'
+    ReferencedTextures[3] = Texture2D'FX_Textures.Noise.Noise_Smoke_03_Pack'
+    ReferencedTextures[4] = Texture2D'Body_Darkcar.DarkCar_RGB'
+    ReferencedTextures[5] = Texture2D'Body_Darkcar.DarkCar_Body_D'
+    ReferencedTextures[6] = TextureCube3'FX_General.Mat.SpecGlow02_Cube'
+}
+Expressions[131] =
+{
+    Expressions[3] = MaterialExpressionTextureSampleParameter2D'Body_Darkcar.Materials.DarkCar_Body_Master_Mat.MaterialExpressionTextureSampleParameter2D_12'
+    Expressions[25] = MaterialExpressionTextureSampleParameter2D'Body_Darkcar.Materials.DarkCar_Body_Master_Mat.MaterialExpressionTextureSampleParameter2D_0'
+    Expressions[30] = MaterialExpressionTextureSampleParameter2D'Body_Darkcar.Materials.DarkCar_Body_Master_Mat.MaterialExpressionTextureSampleParameter2D_13'
+    Expressions[57] = MaterialExpressionStaticSwitchParameter'Body_Darkcar.Materials.DarkCar_Body_Master_Mat.MaterialExpressionStaticSwitchParameter_1'
+    Expressions[58] = MaterialExpressionVectorParameter'Body_Darkcar.Materials.DarkCar_Body_Master_Mat.MaterialExpressionVectorParameter_1'
+    Expressions[59] = MaterialExpressionTextureSampleParameter2D'Body_Darkcar.Materials.DarkCar_Body_Master_Mat.MaterialExpressionTextureSampleParameter2D_5'
+    Expressions[63] = MaterialExpressionTextureSampleParameter2D'Body_Darkcar.Materials.DarkCar_Body_Master_Mat.MaterialExpressionTextureSampleParameter2D_7'
+}
+CachedExpressionData = 
+BlendMode = BLEND_Opaque (0)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[5] =
+{
+    CollectedTextureParameters[0] =
+    {
+        Texture = Texture2D'Body_Darkcar.DarkCar_RGB'
+        Name = Masks
+        Group = None
+    }
+    CollectedTextureParameters[1] =
+    {
+        Texture = Texture2D'Body_Darkcar.DarkCar_BodyMasks'
+        Name = EdgeMasks
+        Group = None
+    }
+    CollectedTextureParameters[2] =
+    {
+        Texture = Texture2D'Detail_Matte.Matte_N'
+        Name = DetailNormal
+        Group = None
+    }
+    CollectedTextureParameters[3] = { Texture=None, Name=ColorLookup, Group=None }
+    CollectedTextureParameters[4] =
+    {
+        Texture = Texture2D'Body_Darkcar.DarkCar_Body_D'
+        Name = Diffuse
+        Group = None
+    }
+}
+CollectedScalarParameters[0] = {}
+CollectedVectorParameters[1] =
+{
+    CollectedVectorParameters[0] =
+    {
+        Value = { R=0.0558781, G=0.701321, B=1, A=0 }
+        Name = TeamColor
+        Group = None
+    }
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[0] = {}

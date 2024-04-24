@@ -1,0 +1,52 @@
+{
+    "cumulative_timesteps": 70936958,
+    "cumulative_model_updates": 4249,
+    "policy_average_reward": 3.1237990193798817,
+    "epoch": 1417,
+    "ts_since_last_save": 100054,
+    "reward_running_stats": {
+        "mean": [
+            0.05570031702518463
+        ],
+        "var": [
+            2003550.125
+        ],
+        "shape": [
+            1
+        ],
+        "count": 212700
+    },
+    "wandb_run_id": "3w2l6rc0",
+    "wandb_project": "rlgym-ppo",
+    "wandb_entity": "mae-mri",
+    "wandb_group": "unnamed-runs",
+    "wandb_config": {
+        "n_proc": 48,
+        "min_inference_size": 43,
+        "timestep_limit": 100000000000,
+        "exp_buffer_size": 150000,
+        "ts_per_iteration": 50000,
+        "standardize_returns": true,
+        "standardize_obs": false,
+        "policy_layer_sizes": [
+            256,
+            256,
+            256
+        ],
+        "critic_layer_sizes": [
+            256,
+            256,
+            256
+        ],
+        "ppo_epochs": 1,
+        "ppo_batch_size": 50000,
+        "ppo_minibatch_size": 50000,
+        "ppo_ent_coef": 0.001,
+        "ppo_clip_range": 0.2,
+        "gae_lambda": 0.95,
+        "gae_gamma": 0.99,
+        "policy_lr": 0.0003,
+        "critic_lr": 0.0003,
+        "shm_buffer_size": 8192
+    }
+}

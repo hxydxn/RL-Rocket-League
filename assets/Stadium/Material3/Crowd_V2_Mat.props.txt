@@ -1,0 +1,107 @@
+TwoSided = true
+bDisableDepthTest = false
+bIsMasked = true
+ReferencedTextures[4] =
+{
+    ReferencedTextures[0] = Texture2D'FX_Textures.Gradients.Sphere_Uncompressed_N'
+    ReferencedTextures[1] = Texture2D'Stadium_Textures.CrowdPattern_VerticalSpectrum'
+    ReferencedTextures[2] = Texture2D'CustomColors.DefaultColor_Team1'
+    ReferencedTextures[3] = Texture2D'FX_Textures.Gradients.2DGrad_Sine_01_Pack'
+}
+Expressions[115] =
+{
+    Expressions[4] = MaterialExpressionScalarParameter'Stadium.Materials.Crowd_V2_Mat.MaterialExpressionScalarParameter_1'
+    Expressions[24] = MaterialExpressionStaticSwitchParameter'Stadium.Materials.Crowd_V2_Mat.MaterialExpressionStaticSwitchParameter_0'
+    Expressions[26] = MaterialExpressionStaticSwitchParameter'Stadium.Materials.Crowd_V2_Mat.MaterialExpressionStaticSwitchParameter_1'
+    Expressions[36] = MaterialExpressionTextureSampleParameter2D'Stadium.Materials.Crowd_V2_Mat.MaterialExpressionTextureSampleParameter2D_10'
+    Expressions[38] = MaterialExpressionVectorParameter'Stadium.Materials.Crowd_V2_Mat.MaterialExpressionVectorParameter_5'
+    Expressions[41] = MaterialExpressionVectorParameter'Stadium.Materials.Crowd_V2_Mat.MaterialExpressionVectorParameter_4'
+    Expressions[42] = MaterialExpressionVectorParameter'Stadium.Materials.Crowd_V2_Mat.MaterialExpressionVectorParameter_3'
+    Expressions[44] = MaterialExpressionTextureSampleParameter2D'Stadium.Materials.Crowd_V2_Mat.MaterialExpressionTextureSampleParameter2D_8'
+    Expressions[51] = MaterialExpressionTextureSampleParameter2D'Stadium.Materials.Crowd_V2_Mat.MaterialExpressionTextureSampleParameter2D_9'
+    Expressions[66] = MaterialExpressionTextureSampleParameter2D'Stadium.Materials.Crowd_V2_Mat.MaterialExpressionTextureSampleParameter2D_11'
+    Expressions[81] = MaterialExpressionScalarParameter'Stadium.Materials.Crowd_V2_Mat.MaterialExpressionScalarParameter_0'
+    Expressions[90] = MaterialExpressionScalarParameter'Stadium.Materials.Crowd_V2_Mat.MaterialExpressionScalarParameter_2'
+    Expressions[93] = MaterialExpressionStaticSwitchParameter'Stadium.Materials.Crowd_V2_Mat.MaterialExpressionStaticSwitchParameter_2'
+    Expressions[94] = MaterialExpressionScalarParameter'Stadium.Materials.Crowd_V2_Mat.MaterialExpressionScalarParameter_3'
+    Expressions[95] = MaterialExpressionVectorParameter'Stadium.Materials.Crowd_V2_Mat.MaterialExpressionVectorParameter_6'
+    Expressions[104] = MaterialExpressionTextureSampleParameter2D'Stadium.Materials.Crowd_V2_Mat.MaterialExpressionTextureSampleParameter2D_6'
+}
+CachedExpressionData = 
+BlendMode = BLEND_Masked (1)
+OpacityMaskClipValue = 0.005
+CollectedTextureParameters[5] =
+{
+    CollectedTextureParameters[0] =
+    {
+        Texture = Texture2D'Stadium_Textures.CrowdPattern_VerticalSpectrum'
+        Name = CrowdPattern
+        Group = None
+    }
+    CollectedTextureParameters[1] =
+    {
+        Texture = Texture2D'CustomColors.DefaultColor_Team1'
+        Name = ColorLookup
+        Group = None
+    }
+    CollectedTextureParameters[2] =
+    {
+        Texture = Texture2D'Stadium_Textures.CrowdPattern_VerticalSpectrum'
+        Name = CrowdPattern
+        Group = None
+    }
+    CollectedTextureParameters[3] =
+    {
+        Texture = Texture2D'Stadium_Textures.CrowdPattern_VerticalSpectrum'
+        Name = CrowdPattern
+        Group = None
+    }
+    CollectedTextureParameters[4] =
+    {
+        Texture = Texture2D'FX_Textures.Gradients.2DGrad_Sine_01_Pack'
+        Name = LightPattern
+        Group = None
+    }
+}
+CollectedScalarParameters[4] =
+{
+    CollectedScalarParameters[0] = { Value=0.25, Name=Cheer, Group=None }
+    CollectedScalarParameters[1] = { Value=1, Name=CrowdSize, Group=None }
+    CollectedScalarParameters[2] = { Value=4, Name=Brightness, Group=None }
+    CollectedScalarParameters[3] = { Value=1, Name=LightsOut, Group=None }
+}
+CollectedVectorParameters[4] =
+{
+    CollectedVectorParameters[0] =
+    {
+        Value = { R=1.25, G=1.25, B=1.25, A=1 }
+        Name = Color3
+        Group = None
+    }
+    CollectedVectorParameters[1] =
+    {
+        Value = { R=0.834223, G=0.508892, B=0.009248, A=1 }
+        Name = Color2
+        Group = None
+    }
+    CollectedVectorParameters[2] =
+    {
+        Value = { R=0.022999, G=0.086108, B=0.535892, A=1 }
+        Name = Color1
+        Group = None
+    }
+    CollectedVectorParameters[3] =
+    {
+        Value = { R=0, G=0, B=0, A=0 }
+        Name = LightControl
+        Group = None
+    }
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[0] = {}

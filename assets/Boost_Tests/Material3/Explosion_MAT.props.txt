@@ -1,0 +1,31 @@
+TwoSided = false
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[1] =
+{
+    ReferencedTextures[0] = Texture2D'Boost_Tests.Textures.FlipBooks.Explosion_FinalSheet_02'
+}
+Expressions[18] =
+{
+    Expressions[5] = MaterialExpressionStaticSwitchParameter'Boost_Tests.Materials.Explosion_MAT.MaterialExpressionStaticSwitchParameter_0'
+    Expressions[15] = MaterialExpressionScalarParameter'Boost_Tests.Materials.Explosion_MAT.MaterialExpressionScalarParameter_2'
+    Expressions[17] = MaterialExpressionScalarParameter'Boost_Tests.Materials.Explosion_MAT.MaterialExpressionScalarParameter_0'
+}
+CachedExpressionData = 
+BlendMode = BLEND_Translucent (2)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[0] = {}
+CollectedScalarParameters[2] =
+{
+    CollectedScalarParameters[0] = { Value=0.5, Name=Scale, Group=None }
+    CollectedScalarParameters[1] = { Value=1, Name=Bias, Group=None }
+}
+CollectedVectorParameters[0] = {}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[0] = {}

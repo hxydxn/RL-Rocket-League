@@ -1,0 +1,47 @@
+TwoSided = false
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[1] =
+{
+    ReferencedTextures[0] = Texture2D'Boost_Burnout.Textures.Flare_SideColor_01'
+}
+Expressions[28] =
+{
+    Expressions[8] = MaterialExpressionTextureSampleParameter2D'Boost_DarkCar.Materials.DarkCar_Front_LF_Mat.MaterialExpressionTextureSampleParameter2D_0'
+    Expressions[10] = MaterialExpressionScalarParameter'Boost_DarkCar.Materials.DarkCar_Front_LF_Mat.MaterialExpressionScalarParameter_0'
+    Expressions[25] = MaterialExpressionStaticSwitchParameter'Boost_DarkCar.Materials.DarkCar_Front_LF_Mat.MaterialExpressionStaticSwitchParameter_0'
+    Expressions[26] = MaterialExpressionScalarParameter'Boost_DarkCar.Materials.DarkCar_Front_LF_Mat.MaterialExpressionScalarParameter_1'
+    Expressions[27] = MaterialExpressionTextureSampleParameter2D'Boost_DarkCar.Materials.DarkCar_Front_LF_Mat.MaterialExpressionTextureSampleParameter2D_1'
+}
+CachedExpressionData = 
+BlendMode = BLEND_Additive (3)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[2] =
+{
+    CollectedTextureParameters[0] =
+    {
+        Texture = Texture2D'Boost_Burnout.Textures.Flare_SideColor_01'
+        Name = Texture
+        Group = None
+    }
+    CollectedTextureParameters[1] =
+    {
+        Texture = Texture2D'Boost_Tests.Textures.FlareDirt_T'
+        Name = DirtTexture
+        Group = None
+    }
+}
+CollectedScalarParameters[2] =
+{
+    CollectedScalarParameters[0] = { Value=1, Name=Alpha, Group=None }
+    CollectedScalarParameters[1] = { Value=1, Name=DirtTile, Group=None }
+}
+CollectedVectorParameters[0] = {}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[0] = {}

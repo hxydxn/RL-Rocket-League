@@ -1,0 +1,34 @@
+TwoSided = false
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[7] =
+{
+    ReferencedTextures[0] = Texture2D'FutureTech_Textures.FrameTexture_N'
+    ReferencedTextures[1] = Texture2D'Stadiums_DetailNormals.ENV_BrushedMetal_N'
+    ReferencedTextures[2] = Texture2D'Stadiums_DetailNormals.ENV_CarbonFiber_N'
+    ReferencedTextures[3] = Texture2D'FutureTech_Textures.FrameTexture_PACK'
+    ReferencedTextures[4] = Texture2D'City_Textures.TireMarks'
+    ReferencedTextures[5] = Texture2D'FX_Textures.Noise.Noise_Smoke_03_Pack'
+}
+Expressions[80] =
+{
+    Expressions[6] = MaterialExpressionStaticSwitchParameter'FutureTech.Materials.Frame_01_V2_Mat.MaterialExpressionStaticSwitchParameter_4'
+    Expressions[79] = MaterialExpressionScalarParameter'FutureTech.Materials.Frame_01_V2_Mat.MaterialExpressionScalarParameter_0'
+}
+CachedExpressionData = 
+BlendMode = BLEND_Opaque (0)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[0] = {}
+CollectedScalarParameters[1] =
+{
+    CollectedScalarParameters[0] = { Value=4, Name=ENVAmount, Group=None }
+}
+CollectedVectorParameters[0] = {}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[0] = {}

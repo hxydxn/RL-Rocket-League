@@ -1,0 +1,26 @@
+TwoSided = false
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[5] =
+{
+    ReferencedTextures[0] = Texture2D'Boost_AlphaReward.Textures.CloudyNoise_T'
+    ReferencedTextures[1] = Texture2D'FX_Water_02.Tex.Water_01_Pack'
+    ReferencedTextures[2] = Texture2D'Boost_Flamethrower.CloudDistort_T'
+    ReferencedTextures[3] = Texture2D'Gradient_FX.Mat.GradientCircle01'
+    ReferencedTextures[4] = Texture2D'FX_Textures.Gradients.Radial_Generic_Tiling_Pack'
+}
+Expressions[69] = {  }
+CachedExpressionData = 
+BlendMode = BLEND_Additive (3)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[0] = {}
+CollectedScalarParameters[0] = {}
+CollectedVectorParameters[0] = {}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[0] = {}

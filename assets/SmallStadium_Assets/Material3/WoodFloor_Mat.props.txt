@@ -1,0 +1,66 @@
+TwoSided = false
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[6] =
+{
+    ReferencedTextures[0] = Texture2D'Proto_BBall.Textures.BBall_WoodFloor01_N'
+    ReferencedTextures[2] = Texture2D'FX_Textures.Noise.Noise_Generic_01_Pack'
+    ReferencedTextures[3] = Texture2D'FX_Textures.Gradients.2DGrad_Sine_01_Pack'
+    ReferencedTextures[4] = Texture2D'Proto_BBall.Textures.BBall_WoodFloor01_D'
+    ReferencedTextures[5] = Texture2D'SmallStadium_Textures.Basketball_Masks'
+}
+Expressions[67] =
+{
+    Expressions[16] = MaterialExpressionStaticSwitchParameter'SmallStadium_Assets.Materials.WoodFloor_Mat.MaterialExpressionStaticSwitchParameter_0'
+    Expressions[19] = MaterialExpressionTextureSampleParameter2D'SmallStadium_Assets.Materials.WoodFloor_Mat.MaterialExpressionTextureSampleParameter2D_0'
+    Expressions[37] = MaterialExpressionScalarParameter'SmallStadium_Assets.Materials.WoodFloor_Mat.MaterialExpressionScalarParameter_5'
+    Expressions[39] = MaterialExpressionVectorParameter'SmallStadium_Assets.Materials.WoodFloor_Mat.MaterialExpressionVectorParameter_2'
+    Expressions[48] = MaterialExpressionTextureSampleParameter2D'SmallStadium_Assets.Materials.WoodFloor_Mat.MaterialExpressionTextureSampleParameter2D_2'
+    Expressions[61] = MaterialExpressionStaticSwitchParameter'SmallStadium_Assets.Materials.WoodFloor_Mat.MaterialExpressionStaticSwitchParameter_5'
+    Expressions[66] = MaterialExpressionVectorParameter'SmallStadium_Assets.Materials.WoodFloor_Mat.MaterialExpressionVectorParameter_1'
+}
+CachedExpressionData = 
+BlendMode = BLEND_Masked (1)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[2] =
+{
+    CollectedTextureParameters[0] =
+    {
+        Texture = Texture2D'SmallStadium_Textures.Basketball_Masks'
+        Name = Masks
+        Group = None
+    }
+    CollectedTextureParameters[1] =
+    {
+        Texture = Texture2D'FX_Textures.Gradients.2DGrad_Sine_01_Pack'
+        Name = LightPattern
+        Group = None
+    }
+}
+CollectedScalarParameters[1] =
+{
+    CollectedScalarParameters[0] = { Value=1, Name=LightsOut, Group=None }
+}
+CollectedVectorParameters[2] =
+{
+    CollectedVectorParameters[0] =
+    {
+        Value = { R=0, G=0, B=0, A=0 }
+        Name = LightControl
+        Group = None
+    }
+    CollectedVectorParameters[1] =
+    {
+        Value = { R=0, G=0, B=1, A=0 }
+        Name = None
+        Group = None
+    }
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[0] = {}

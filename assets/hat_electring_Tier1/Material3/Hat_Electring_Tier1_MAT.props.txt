@@ -1,0 +1,127 @@
+TwoSided = true
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[3] =
+{
+    ReferencedTextures[0] = Texture2D'Boost_Toon.Textures.Flow_02'
+    ReferencedTextures[1] = Texture2D'SS_LuminousSparks.Textures.DistortNoise_02_RGB_T'
+    ReferencedTextures[2] = Texture2D'hat_electring_Tier1.Meshes.CausticsMask_RGB_T'
+}
+Expressions[194] =
+{
+    Expressions[0] = MaterialExpressionStaticSwitchParameter'hat_electring_Tier1.Materials.Hat_Electring_Tier1_MAT.MaterialExpressionStaticSwitchParameter_0'
+    Expressions[5] = MaterialExpressionScalarParameter'hat_electring_Tier1.Materials.Hat_Electring_Tier1_MAT.MaterialExpressionScalarParameter_2'
+    Expressions[7] = MaterialExpressionScalarParameter'hat_electring_Tier1.Materials.Hat_Electring_Tier1_MAT.MaterialExpressionScalarParameter_3'
+    Expressions[17] = MaterialExpressionScalarParameter'hat_electring_Tier1.Materials.Hat_Electring_Tier1_MAT.MaterialExpressionScalarParameter_1'
+    Expressions[20] = MaterialExpressionScalarParameter'hat_electring_Tier1.Materials.Hat_Electring_Tier1_MAT.MaterialExpressionScalarParameter_0'
+    Expressions[37] = MaterialExpressionStaticSwitchParameter'hat_electring_Tier1.Materials.Hat_Electring_Tier1_MAT.MaterialExpressionStaticSwitchParameter_2'
+    Expressions[51] = MaterialExpressionScalarParameter'hat_electring_Tier1.Materials.Hat_Electring_Tier1_MAT.MaterialExpressionScalarParameter_16'
+    Expressions[115] = MaterialExpressionStaticSwitchParameter'hat_electring_Tier1.Materials.Hat_Electring_Tier1_MAT.MaterialExpressionStaticSwitchParameter_1'
+    Expressions[116] = MaterialExpressionScalarParameter'hat_electring_Tier1.Materials.Hat_Electring_Tier1_MAT.MaterialExpressionScalarParameter_4'
+    Expressions[121] = MaterialExpressionVectorParameter'hat_electring_Tier1.Materials.Hat_Electring_Tier1_MAT.MaterialExpressionVectorParameter_0'
+    Expressions[128] = MaterialExpressionStaticSwitchParameter'hat_electring_Tier1.Materials.Hat_Electring_Tier1_MAT.MaterialExpressionStaticSwitchParameter_3'
+    Expressions[129] = MaterialExpressionScalarParameter'hat_electring_Tier1.Materials.Hat_Electring_Tier1_MAT.MaterialExpressionScalarParameter_5'
+    Expressions[137] = MaterialExpressionScalarParameter'hat_electring_Tier1.Materials.Hat_Electring_Tier1_MAT.MaterialExpressionScalarParameter_6'
+    Expressions[138] = MaterialExpressionScalarParameter'hat_electring_Tier1.Materials.Hat_Electring_Tier1_MAT.MaterialExpressionScalarParameter_8'
+    Expressions[139] = MaterialExpressionScalarParameter'hat_electring_Tier1.Materials.Hat_Electring_Tier1_MAT.MaterialExpressionScalarParameter_9'
+    Expressions[140] = MaterialExpressionScalarParameter'hat_electring_Tier1.Materials.Hat_Electring_Tier1_MAT.MaterialExpressionScalarParameter_10'
+    Expressions[141] = MaterialExpressionScalarParameter'hat_electring_Tier1.Materials.Hat_Electring_Tier1_MAT.MaterialExpressionScalarParameter_11'
+    Expressions[143] = MaterialExpressionTextureSampleParameter2D'hat_electring_Tier1.Materials.Hat_Electring_Tier1_MAT.MaterialExpressionTextureSampleParameter2D_0'
+    Expressions[144] = MaterialExpressionTextureSampleParameter2D'hat_electring_Tier1.Materials.Hat_Electring_Tier1_MAT.MaterialExpressionTextureSampleParameter2D_2'
+    Expressions[145] = MaterialExpressionScalarParameter'hat_electring_Tier1.Materials.Hat_Electring_Tier1_MAT.MaterialExpressionScalarParameter_12'
+    Expressions[156] = MaterialExpressionScalarParameter'hat_electring_Tier1.Materials.Hat_Electring_Tier1_MAT.MaterialExpressionScalarParameter_13'
+    Expressions[160] = MaterialExpressionScalarParameter'hat_electring_Tier1.Materials.Hat_Electring_Tier1_MAT.MaterialExpressionScalarParameter_27'
+    Expressions[166] = MaterialExpressionScalarParameter'hat_electring_Tier1.Materials.Hat_Electring_Tier1_MAT.MaterialExpressionScalarParameter_36'
+    Expressions[168] = MaterialExpressionScalarParameter'hat_electring_Tier1.Materials.Hat_Electring_Tier1_MAT.MaterialExpressionScalarParameter_37'
+    Expressions[172] = MaterialExpressionScalarParameter'hat_electring_Tier1.Materials.Hat_Electring_Tier1_MAT.MaterialExpressionScalarParameter_38'
+    Expressions[174] = MaterialExpressionScalarParameter'hat_electring_Tier1.Materials.Hat_Electring_Tier1_MAT.MaterialExpressionScalarParameter_39'
+    Expressions[181] = MaterialExpressionScalarParameter'hat_electring_Tier1.Materials.Hat_Electring_Tier1_MAT.MaterialExpressionScalarParameter_44'
+    Expressions[182] = MaterialExpressionScalarParameter'hat_electring_Tier1.Materials.Hat_Electring_Tier1_MAT.MaterialExpressionScalarParameter_45'
+    Expressions[189] = MaterialExpressionScalarParameter'hat_electring_Tier1.Materials.Hat_Electring_Tier1_MAT.MaterialExpressionScalarParameter_46'
+    Expressions[190] = MaterialExpressionScalarParameter'hat_electring_Tier1.Materials.Hat_Electring_Tier1_MAT.MaterialExpressionScalarParameter_47'
+    Expressions[192] = MaterialExpressionScalarParameter'hat_electring_Tier1.Materials.Hat_Electring_Tier1_MAT.MaterialExpressionScalarParameter_48'
+    Expressions[193] = MaterialExpressionScalarParameter'hat_electring_Tier1.Materials.Hat_Electring_Tier1_MAT.MaterialExpressionScalarParameter_49'
+}
+CachedExpressionData = 
+BlendMode = BLEND_Translucent (2)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[2] =
+{
+    CollectedTextureParameters[0] =
+    {
+        Texture = Texture2D'hat_electring_Tier1.Meshes.CausticsMask_RGB_T'
+        Name = MaskTexture
+        Group = None
+    }
+    CollectedTextureParameters[1] =
+    {
+        Texture = Texture2D'hat_electring_Tier1.Meshes.CausticsMask_RGB_T'
+        Name = MaskTexture
+        Group = None
+    }
+}
+CollectedScalarParameters[25] =
+{
+    CollectedScalarParameters[0] = { Value=0, Name=Intensity, Group=WPO }
+    CollectedScalarParameters[1] = { Value=0, Name=Amount, Group=WPO }
+    CollectedScalarParameters[2] = { Value=0, Name=Speed, Group=WPO }
+    CollectedScalarParameters[3] = { Value=0, Name=tile, Group=WPO }
+    CollectedScalarParameters[4] = { Value=2, Name=PanSpeed, Group=None }
+    CollectedScalarParameters[5] = { Value=0, Name=Saturation, Group=None }
+    CollectedScalarParameters[6] = { Value=0, Name=HueShift, Group=None }
+    CollectedScalarParameters[7] = { Value=1, Name=Hardness, Group=DynamicParams }
+    CollectedScalarParameters[8] = { Value=1, Name=SolidMask, Group=DynamicParams }
+    CollectedScalarParameters[9] = { Value=1, Name=AddMultiply, Group=DynamicParams }
+    CollectedScalarParameters[10] = { Value=1, Name=Brightness, Group=DynamicParams }
+    CollectedScalarParameters[11] = { Value=1, Name=Opacity, Group=None }
+    CollectedScalarParameters[12] = { Value=6, Name=Hardness_01, Group=None }
+    CollectedScalarParameters[13] = { Value=1, Name=CoreBrightness, Group=None }
+    CollectedScalarParameters[14] = { Value=0.15, Name=UVDistort, Group=None }
+    CollectedScalarParameters[15] = { Value=1, Name=Pattern_PanV, Group=PatternOverlay }
+    CollectedScalarParameters[16] = { Value=1, Name=PatternTileV, Group=PatternOverlay }
+    CollectedScalarParameters[17] = { Value=1, Name=Pattern_PanU, Group=PatternOverlay }
+    CollectedScalarParameters[18] = { Value=1, Name=PatternTileU, Group=PatternOverlay }
+    CollectedScalarParameters[19] =
+    {
+        Value = 1
+        Name = 02_PatternTileU
+        Group = PatternOverlay
+    }
+    CollectedScalarParameters[20] =
+    {
+        Value = 1
+        Name = 02_Pattern_PanU
+        Group = PatternOverlay
+    }
+    CollectedScalarParameters[21] =
+    {
+        Value = 1
+        Name = 02_PatternTileV
+        Group = PatternOverlay
+    }
+    CollectedScalarParameters[22] =
+    {
+        Value = 1
+        Name = 02_Pattern_PanV
+        Group = PatternOverlay
+    }
+    CollectedScalarParameters[23] = { Value=5, Name=DistortionAmount, Group=None }
+    CollectedScalarParameters[24] = { Value=1, Name=Sharpness, Group=None }
+}
+CollectedVectorParameters[1] =
+{
+    CollectedVectorParameters[0] =
+    {
+        Value = { R=0, G=0.334822, B=0.988914, A=1 }
+        Name = CustomColor
+        Group = None
+    }
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[0] = {}

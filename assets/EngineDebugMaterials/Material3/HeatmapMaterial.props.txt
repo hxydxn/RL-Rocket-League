@@ -1,0 +1,28 @@
+TwoSided = false
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[2] =
+{
+    ReferencedTextures[1] = Texture2D'EngineDebugMaterials.HeatmapGradient'
+}
+Expressions[8] =
+{
+    Expressions[1] = MaterialExpressionTextureSampleParameter2D'EngineDebugMaterials.HeatmapMaterial.MaterialExpressionTextureSampleParameter2D_0'
+}
+CachedExpressionData = 
+BlendMode = BLEND_Translucent (2)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[1] =
+{
+    CollectedTextureParameters[0] = { Texture=None, Name=HeatmapTexture, Group=None }
+}
+CollectedScalarParameters[0] = {}
+CollectedVectorParameters[0] = {}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[0] = {}

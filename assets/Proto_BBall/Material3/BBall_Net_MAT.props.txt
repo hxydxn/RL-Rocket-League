@@ -1,0 +1,63 @@
+TwoSided = true
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[1] =
+{
+    ReferencedTextures[0] = Texture2D'Boost_SweetTooth.Textures.CloudDistort_T'
+}
+Expressions[108] =
+{
+    Expressions[20] = MaterialExpressionScalarParameter'Proto_BBall.Materials.BBall_Net_MAT.MaterialExpressionScalarParameter_12'
+    Expressions[25] = MaterialExpressionScalarParameter'Proto_BBall.Materials.BBall_Net_MAT.MaterialExpressionScalarParameter_8'
+    Expressions[29] = MaterialExpressionScalarParameter'Proto_BBall.Materials.BBall_Net_MAT.MaterialExpressionScalarParameter_9'
+    Expressions[30] = MaterialExpressionTextureSampleParameter2D'Proto_BBall.Materials.BBall_Net_MAT.MaterialExpressionTextureSampleParameter2D_0'
+    Expressions[32] = MaterialExpressionScalarParameter'Proto_BBall.Materials.BBall_Net_MAT.MaterialExpressionScalarParameter_11'
+    Expressions[36] = MaterialExpressionScalarParameter'Proto_BBall.Materials.BBall_Net_MAT.MaterialExpressionScalarParameter_5'
+    Expressions[45] = MaterialExpressionScalarParameter'Proto_BBall.Materials.BBall_Net_MAT.MaterialExpressionScalarParameter_13'
+    Expressions[52] = MaterialExpressionScalarParameter'Proto_BBall.Materials.BBall_Net_MAT.MaterialExpressionScalarParameter_10'
+    Expressions[63] = MaterialExpressionScalarParameter'Proto_BBall.Materials.BBall_Net_MAT.MaterialExpressionScalarParameter_4'
+    Expressions[68] = MaterialExpressionScalarParameter'Proto_BBall.Materials.BBall_Net_MAT.MaterialExpressionScalarParameter_6'
+    Expressions[75] = MaterialExpressionScalarParameter'Proto_BBall.Materials.BBall_Net_MAT.MaterialExpressionScalarParameter_2'
+    Expressions[76] = MaterialExpressionScalarParameter'Proto_BBall.Materials.BBall_Net_MAT.MaterialExpressionScalarParameter_3'
+    Expressions[87] = MaterialExpressionScalarParameter'Proto_BBall.Materials.BBall_Net_MAT.MaterialExpressionScalarParameter_7'
+    Expressions[104] = MaterialExpressionScalarParameter'Proto_BBall.Materials.BBall_Net_MAT.MaterialExpressionScalarParameter_0'
+    Expressions[105] = MaterialExpressionScalarParameter'Proto_BBall.Materials.BBall_Net_MAT.MaterialExpressionScalarParameter_1'
+}
+CachedExpressionData = 
+BlendMode = BLEND_Translucent (2)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[1] =
+{
+    CollectedTextureParameters[0] =
+    {
+        Texture = Texture2D'Boost_SweetTooth.Textures.CloudDistort_T'
+        Name = DistortTexture
+        Group = None
+    }
+}
+CollectedScalarParameters[14] =
+{
+    CollectedScalarParameters[0] = { Value=2, Name=WaveLength, Group=None }
+    CollectedScalarParameters[1] = { Value=-1, Name=ScanSpeed, Group=None }
+    CollectedScalarParameters[2] = { Value=0.2, Name=DistortAmount, Group=None }
+    CollectedScalarParameters[3] = { Value=0.35, Name=DistortTile, Group=None }
+    CollectedScalarParameters[4] = { Value=24, Name=Mask_Tile, Group=Mask }
+    CollectedScalarParameters[5] = { Value=0.05, Name=WaveTile, Group=None }
+    CollectedScalarParameters[6] = { Value=-1, Name=RimScanSpeed, Group=None }
+    CollectedScalarParameters[7] = { Value=0.23, Name=Mask_Blocks_Size, Group=Mask }
+    CollectedScalarParameters[8] = { Value=64, Name=Mask_Blocks_Sharpness, Group=Mask }
+    CollectedScalarParameters[9] = { Value=0.1, Name=Mask_Square_Size, Group=Mask }
+    CollectedScalarParameters[10] = { Value=64, Name=Mask_Square_Sharpness, Group=Mask }
+    CollectedScalarParameters[11] = { Value=3, Name=BlockIntensity, Group=None }
+    CollectedScalarParameters[12] = { Value=0.03, Name=FadeAmmount, Group=None }
+    CollectedScalarParameters[13] = { Value=25, Name=FadeIntensity, Group=None }
+}
+CollectedVectorParameters[0] = {}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[0] = {}

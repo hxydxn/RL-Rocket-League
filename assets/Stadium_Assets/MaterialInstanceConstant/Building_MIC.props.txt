@@ -1,0 +1,30 @@
+Parent = MaterialInstanceConstant'City.Materials.Building_MIC'
+ScalarParameterValues[0] = {}
+TextureParameterValues[2] =
+{
+    TextureParameterValues[0] =
+    {
+        ParameterInfo = 
+        ParameterValue = TextureCube3'Stadium_Assets.Textures.OOBCube'
+        ParameterName = CubeMap
+    }
+    TextureParameterValues[1] =
+    {
+        ParameterInfo = 
+        ParameterValue = Texture2D'Stadium_Foggy_Assets.ENV_Stormy'
+        ParameterName = ENV
+    }
+}
+VectorParameterValues[0] = {}
+BasePropertyOverrides = 
+StaticParameters = 
+RuntimeVirtualTextureParameterValues[0] = {}
+FontParameterValues[0] = {}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[0] = {}

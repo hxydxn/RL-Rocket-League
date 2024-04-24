@@ -1,0 +1,49 @@
+TwoSided = false
+bDisableDepthTest = false
+bIsMasked = true
+ReferencedTextures[6] =
+{
+    ReferencedTextures[0] = Texture2D'SmallStadium_Textures.WoodFloor_N'
+    ReferencedTextures[1] = Texture2D'Detail_Wood.Wood_N'
+    ReferencedTextures[2] = Texture2D'FX_Textures.Noise.Noise_Generic_01_Pack'
+    ReferencedTextures[3] = Texture2D'FX_Textures.Gradients.2DGrad_Sine_01_Pack'
+    ReferencedTextures[5] = Texture2D'SmallStadium_Textures.WoodFloor_D'
+}
+Expressions[52] =
+{
+    Expressions[0] = MaterialExpressionTextureSampleParameter2D'SmallStadium_Assets.Materials.CourtLogo_Mat.MaterialExpressionTextureSampleParameter2D_0'
+    Expressions[22] = MaterialExpressionStaticSwitchParameter'SmallStadium_Assets.Materials.CourtLogo_Mat.MaterialExpressionStaticSwitchParameter_3'
+    Expressions[29] = MaterialExpressionVectorParameter'SmallStadium_Assets.Materials.CourtLogo_Mat.MaterialExpressionVectorParameter_1'
+    Expressions[36] = MaterialExpressionTextureSampleParameter2D'SmallStadium_Assets.Materials.CourtLogo_Mat.MaterialExpressionTextureSampleParameter2D_2'
+}
+CachedExpressionData = 
+BlendMode = BLEND_Masked (1)
+OpacityMaskClipValue = 0.666667
+CollectedTextureParameters[2] =
+{
+    CollectedTextureParameters[0] = { Texture=None, Name=Logo, Group=None }
+    CollectedTextureParameters[1] =
+    {
+        Texture = Texture2D'FX_Textures.Gradients.2DGrad_Sine_01_Pack'
+        Name = LightPattern
+        Group = None
+    }
+}
+CollectedScalarParameters[0] = {}
+CollectedVectorParameters[1] =
+{
+    CollectedVectorParameters[0] =
+    {
+        Value = { R=0, G=0, B=0, A=0 }
+        Name = LightControl
+        Group = None
+    }
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[0] = {}

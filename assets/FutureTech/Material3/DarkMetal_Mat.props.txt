@@ -1,0 +1,32 @@
+TwoSided = false
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[2] =
+{
+    ReferencedTextures[0] = Texture2D'Stadiums_DetailNormals.ENV_BrushedMetal_N'
+}
+Expressions[31] =
+{
+    Expressions[14] = MaterialExpressionScalarParameter'FutureTech.Materials.DarkMetal_Mat.MaterialExpressionScalarParameter_0'
+    Expressions[16] = MaterialExpressionStaticSwitchParameter'FutureTech.Materials.DarkMetal_Mat.MaterialExpressionStaticSwitchParameter_2'
+    Expressions[19] = MaterialExpressionStaticSwitchParameter'FutureTech.Materials.DarkMetal_Mat.MaterialExpressionStaticSwitchParameter_0'
+    Expressions[25] = MaterialExpressionScalarParameter'FutureTech.Materials.DarkMetal_Mat.MaterialExpressionScalarParameter_3'
+}
+CachedExpressionData = 
+BlendMode = BLEND_Opaque (0)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[0] = {}
+CollectedScalarParameters[2] =
+{
+    CollectedScalarParameters[0] = { Value=4, Name=ENVBrightness, Group=None }
+    CollectedScalarParameters[1] = { Value=1, Name=ENVAmount, Group=None }
+}
+CollectedVectorParameters[0] = {}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[0] = {}

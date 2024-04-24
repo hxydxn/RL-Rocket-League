@@ -1,0 +1,55 @@
+TwoSided = false
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[2] =
+{
+    ReferencedTextures[0] = Texture2D'FX_Textures.Noise.Noise_Swirls_01_Pack'
+}
+Expressions[99] =
+{
+    Expressions[1] = MaterialExpressionScalarParameter'Stadium_Euro_IVTK.GoalGenerator_Mat_IVTK_Master.MaterialExpressionScalarParameter_27'
+    Expressions[2] = MaterialExpressionScalarParameter'Stadium_Euro_IVTK.GoalGenerator_Mat_IVTK_Master.MaterialExpressionScalarParameter_26'
+    Expressions[3] = MaterialExpressionScalarParameter'Stadium_Euro_IVTK.GoalGenerator_Mat_IVTK_Master.MaterialExpressionScalarParameter_25'
+    Expressions[4] = MaterialExpressionStaticSwitchParameter'Stadium_Euro_IVTK.GoalGenerator_Mat_IVTK_Master.MaterialExpressionStaticSwitchParameter_6'
+    Expressions[5] = MaterialExpressionStaticSwitchParameter'Stadium_Euro_IVTK.GoalGenerator_Mat_IVTK_Master.MaterialExpressionStaticSwitchParameter_0'
+    Expressions[16] = MaterialExpressionVectorParameter'Stadium_Euro_IVTK.GoalGenerator_Mat_IVTK_Master.MaterialExpressionVectorParameter_0'
+    Expressions[19] = MaterialExpressionScalarParameter'Stadium_Euro_IVTK.GoalGenerator_Mat_IVTK_Master.MaterialExpressionScalarParameter_24'
+}
+CachedExpressionData = 
+BlendMode = BLEND_Translucent (2)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[0] = {}
+CollectedScalarParameters[4] =
+{
+    CollectedScalarParameters[0] = { Value=3, Name=Fresnel Power, Group=InvisiTek }
+    CollectedScalarParameters[1] =
+    {
+        Value = 20
+        Name = Fresnel Intensity
+        Group = InvisiTek
+    }
+    CollectedScalarParameters[2] =
+    {
+        Value = 0.05
+        Name = Gradient Size Adjust
+        Group = InvisiTek
+    }
+    CollectedScalarParameters[3] = { Value=10, Name=Gradient Falloff, Group=InvisiTek }
+}
+CollectedVectorParameters[1] =
+{
+    CollectedVectorParameters[0] =
+    {
+        Value = { R=1.1809, G=0.1, B=0, A=1 }
+        Name = Color1
+        Group = None
+    }
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[0] = {}

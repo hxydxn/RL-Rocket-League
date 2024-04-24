@@ -1,0 +1,55 @@
+TwoSided = true
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[2] =
+{
+    ReferencedTextures[0] = Texture2D'FX_Textures.Gradients.Curve_Fire_01_Pack'
+    ReferencedTextures[1] = Texture2D'FX_Textures.Gradients.Curve_Smoke_01_Pack'
+}
+Expressions[120] =
+{
+    Expressions[15] = MaterialExpressionVectorParameter'FutureTech.Materials.ForceField_HexGage_Mat.MaterialExpressionVectorParameter_0'
+    Expressions[28] = MaterialExpressionScalarParameter'FutureTech.Materials.ForceField_HexGage_Mat.MaterialExpressionScalarParameter_0'
+    Expressions[43] = MaterialExpressionScalarParameter'FutureTech.Materials.ForceField_HexGage_Mat.MaterialExpressionScalarParameter_1'
+    Expressions[94] = MaterialExpressionStaticSwitchParameter'FutureTech.Materials.ForceField_HexGage_Mat.MaterialExpressionStaticSwitchParameter_3'
+    Expressions[103] = MaterialExpressionVectorParameter'FutureTech.Materials.ForceField_HexGage_Mat.MaterialExpressionVectorParameter_2'
+    Expressions[104] = MaterialExpressionVectorParameter'FutureTech.Materials.ForceField_HexGage_Mat.MaterialExpressionVectorParameter_1'
+}
+CachedExpressionData = 
+BlendMode = BLEND_Additive (3)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[0] = {}
+CollectedScalarParameters[2] =
+{
+    CollectedScalarParameters[0] = { Value=0.5, Name=ShockWave, Group=None }
+    CollectedScalarParameters[1] = { Value=1, Name=Opacity, Group=None }
+}
+CollectedVectorParameters[3] =
+{
+    CollectedVectorParameters[0] =
+    {
+        Value = { R=0, G=0, B=0, A=0 }
+        Name = BallPosition
+        Group = None
+    }
+    CollectedVectorParameters[1] =
+    {
+        Value = { R=0, G=0.256248, B=1.06064, A=1 }
+        Name = Team2
+        Group = None
+    }
+    CollectedVectorParameters[2] =
+    {
+        Value = { R=1, G=0.0625, B=0.03125, A=1 }
+        Name = Team1
+        Group = None
+    }
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[0] = {}

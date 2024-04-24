@@ -1,0 +1,26 @@
+TwoSided = false
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[6] =
+{
+    ReferencedTextures[0] = Texture2D'TiledPatterns.Hexagons_N'
+    ReferencedTextures[1] = Texture2D'TiledPatterns.Hexagons_Pack_B'
+    ReferencedTextures[2] = Texture2D'Stadiums_DetailNormals.ENV_CarbonFiber_N'
+    ReferencedTextures[3] = Texture2D'TiledPatterns.Hexagons_Pack'
+    ReferencedTextures[5] = Texture2D'Vehicle_Parent_Textures.ENVPack'
+}
+Expressions[60] = {  }
+CachedExpressionData = 
+BlendMode = BLEND_Opaque (0)
+OpacityMaskClipValue = 0.125
+CollectedTextureParameters[0] = {}
+CollectedScalarParameters[0] = {}
+CollectedVectorParameters[0] = {}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[0] = {}

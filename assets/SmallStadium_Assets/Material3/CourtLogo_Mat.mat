@@ -1,0 +1,5 @@
+Diffuse=WoodFloor_D
+Normal=WoodFloor_N
+Other[0]=Wood_N
+Other[1]=Noise_Generic_01_Pack
+Other[2]=2DGrad_Sine_01_Pack

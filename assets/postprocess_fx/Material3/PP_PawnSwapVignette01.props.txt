@@ -1,0 +1,37 @@
+TwoSided = false
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[1] =
+{
+    ReferencedTextures[0] = Texture2D'ItemsMode.Car.Textures.GradientStripe_T'
+}
+Expressions[52] =
+{
+    Expressions[3] = MaterialExpressionScalarParameter'postprocess_fx.Mat.PP_PawnSwapVignette01.MaterialExpressionScalarParameter_1'
+    Expressions[8] = MaterialExpressionVectorParameter'postprocess_fx.Mat.PP_PawnSwapVignette01.MaterialExpressionVectorParameter_0'
+}
+CachedExpressionData = 
+BlendMode = BLEND_Translucent (2)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[0] = {}
+CollectedScalarParameters[1] =
+{
+    CollectedScalarParameters[0] = { Value=0, Name=WaveSpeed, Group=None }
+}
+CollectedVectorParameters[1] =
+{
+    CollectedVectorParameters[0] =
+    {
+        Value = { R=0.185335, G=1, B=0, A=20 }
+        Name = TeamColor
+        Group = None
+    }
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[0] = {}

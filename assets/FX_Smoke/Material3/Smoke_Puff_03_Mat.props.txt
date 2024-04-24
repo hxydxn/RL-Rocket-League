@@ -1,0 +1,32 @@
+TwoSided = false
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[1] =
+{
+    ReferencedTextures[0] = Texture2D'FX_Textures.Noise.Noise_Smoke_01_Pack'
+}
+Expressions[7] =
+{
+    Expressions[1] = MaterialExpressionScalarParameter'FX_Smoke.Mat.Smoke_Puff_03_Mat.MaterialExpressionScalarParameter_0'
+    Expressions[2] = MaterialExpressionScalarParameter'FX_Smoke.Mat.Smoke_Puff_03_Mat.MaterialExpressionScalarParameter_1'
+    Expressions[5] = MaterialExpressionStaticSwitchParameter'FX_Smoke.Mat.Smoke_Puff_03_Mat.MaterialExpressionStaticSwitchParameter_2'
+    Expressions[6] = MaterialExpressionStaticSwitchParameter'FX_Smoke.Mat.Smoke_Puff_03_Mat.MaterialExpressionStaticSwitchParameter_5'
+}
+CachedExpressionData = 
+BlendMode = BLEND_Translucent (2)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[0] = {}
+CollectedScalarParameters[2] =
+{
+    CollectedScalarParameters[0] = { Value=1, Name=Pan_Speed, Group=None }
+    CollectedScalarParameters[1] = { Value=1, Name=Noise_Scale, Group=None }
+}
+CollectedVectorParameters[0] = {}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[0] = {}

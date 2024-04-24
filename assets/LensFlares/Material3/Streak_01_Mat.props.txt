@@ -1,0 +1,37 @@
+TwoSided = false
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[1] = { Texture2D'General_FX.Mat.GradientCircle01' }
+Expressions[15] =
+{
+    Expressions[3] = MaterialExpressionVectorParameter'LensFlares.Materials.Streak_01_Mat.MaterialExpressionVectorParameter_0'
+    Expressions[4] = MaterialExpressionVectorParameter'LensFlares.Materials.Streak_01_Mat.MaterialExpressionVectorParameter_2'
+}
+CachedExpressionData = 
+BlendMode = BLEND_Additive (3)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[0] = {}
+CollectedScalarParameters[0] = {}
+CollectedVectorParameters[2] =
+{
+    CollectedVectorParameters[0] =
+    {
+        Value = { R=1, G=0.751629, B=0.235847, A=1 }
+        Name = Inner_Color
+        Group = None
+    }
+    CollectedVectorParameters[1] =
+    {
+        Value = { R=1, G=0.175953, B=0, A=1 }
+        Name = Outer_Color
+        Group = None
+    }
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[0] = {}

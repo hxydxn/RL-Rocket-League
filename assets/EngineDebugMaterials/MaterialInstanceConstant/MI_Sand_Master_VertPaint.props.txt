@@ -1,0 +1,62 @@
+Parent = Material3'EngineDebugMaterials.Testing.M_Sand_Master_VertPaint'
+ScalarParameterValues[2] =
+{
+    ScalarParameterValues[0] =
+    {
+        ParameterInfo = 
+        ParameterValue = -1
+        ParameterName = Sand Intensity -10 to 1
+    }
+    ScalarParameterValues[1] =
+    {
+        ParameterInfo = 
+        ParameterValue = 3
+        ParameterName = TextureScaling
+    }
+}
+TextureParameterValues[5] =
+{
+    TextureParameterValues[0] =
+    {
+        ParameterInfo = 
+        ParameterValue = Texture2D'EngineDebugMaterials.Testing.DrySand_N'
+        ParameterName = NormalMap
+    }
+    TextureParameterValues[1] =
+    {
+        ParameterInfo = 
+        ParameterValue = Texture2D'EngineDebugMaterials.Testing.WetSand_N'
+        ParameterName = WetSandNormalMap
+    }
+    TextureParameterValues[2] =
+    {
+        ParameterInfo = 
+        ParameterValue = Texture2D'EngineDebugMaterials.Testing.DrySand_D'
+        ParameterName = Diffuse
+    }
+    TextureParameterValues[3] =
+    {
+        ParameterInfo = 
+        ParameterValue = Texture2D'EngineDebugMaterials.Testing.WetSand_D'
+        ParameterName = WetSandDiffuse
+    }
+    TextureParameterValues[4] =
+    {
+        ParameterInfo = 
+        ParameterValue = Texture2D'EngineDebugMaterials.Testing.MI_Sand_Master_VertPaint_Flattened'
+        ParameterName = MobileBaseTexture
+    }
+}
+VectorParameterValues[0] = {}
+BasePropertyOverrides = 
+StaticParameters = 
+RuntimeVirtualTextureParameterValues[0] = {}
+FontParameterValues[0] = {}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[0] = {}
