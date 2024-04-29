@@ -1,0 +1,59 @@
+Checkpoint loaded!
+Learner successfully initialized!
+Press (p) to pause (c) to checkpoint, (q) to checkpoint and quit (after next iteration)
+--------BEGIN ITERATION REPORT--------
+Policy Reward: 1.62975
+Policy Entropy: 4.47005
+Value Function Loss: 0.00016
+Mean KL Divergence: 0.00001
+SB3 Clip Fraction: 0.00000
+Policy Update Magnitude: 0.15571
+Value Function Update Magnitude: 0.13119
+Collected Steps per Second: 7,384.00542
+Overall Steps per Second: 4,748.23275
+Timestep Collection Time: 6.77166
+Timestep Consumption Time: 3.75899
+PPO Batch Consumption Time: 0.81505
+Total Iteration Time: 10.53065
+Cumulative Model Updates: 318,488
+Cumulative Timesteps: 2,136,251,610
+Timesteps Collected: 50,002
+--------END ITERATION REPORT--------
+--------BEGIN ITERATION REPORT--------
+Policy Reward: 2.12317
+Policy Entropy: 4.47104
+Value Function Loss: 0.00020
+Mean KL Divergence: 0.00010
+SB3 Clip Fraction: 0.00023
+Policy Update Magnitude: 0.18528
+Value Function Update Magnitude: 0.21595
+Collected Steps per Second: 7,524.71425
+Overall Steps per Second: 4,802.12401
+Timestep Collection Time: 6.64477
+Timestep Consumption Time: 3.76729
+PPO Batch Consumption Time: 0.80981
+Total Iteration Time: 10.41206
+Cumulative Model Updates: 318,491
+Cumulative Timesteps: 2,136,301,610
+Timesteps Collected: 50,000
+--------END ITERATION REPORT--------
+Saving checkpoint 2136301610...
+Checkpoint 2136301610 saved!
+--------BEGIN ITERATION REPORT--------
+Policy Reward: 1.72418
+Policy Entropy: 4.47259
+Value Function Loss: 0.00019
+Mean KL Divergence: 0.00041
+SB3 Clip Fraction: 0.00215
+Policy Update Magnitude: 0.39306
+Value Function Update Magnitude: 0.39337
+Collected Steps per Second: 8,230.21442
+Overall Steps per Second: 4,100.09135
+Timestep Collection Time: 6.07639
+Timestep Consumption Time: 6.12090
+PPO Batch Consumption Time: 0.80702
+Total Iteration Time: 12.19729
+Cumulative Model Updates: 318,497
+Cumulative Timesteps: 2,136,351,620
+Timesteps Collected: 50,010
+--------END ITERATION REPORT--------

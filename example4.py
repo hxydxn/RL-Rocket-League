@@ -57,11 +57,11 @@ def build_rocketsim_env():
     #             ) 
     # reward_weights = (10.0, 0.02, 0.1, 0.02)
 
-    rewards_to_combine = (EventReward(team_goal=1.25, demo=0.3, boost_pickup=0.1),
+    rewards_to_combine = (EventReward(team_goal=1.5, demo=0.3, boost_pickup=0.1),
                           VelocityPlayerToBallReward(),
                           VelocityBallToGoalReward(),
                           )
-    reward_weights = (10.0, 0.25, 0.1)
+    reward_weights = (10.0, 0.1, 0.25)
 
     reward_fn = CombinedReward(reward_functions=rewards_to_combine,
                                reward_weights=reward_weights)
@@ -86,14 +86,14 @@ if __name__ == "__main__":
     from rlgym_ppo import Learner
     metrics_logger = ExampleLogger()
 
-    # 48 processes
+    # 42 processes
     n_proc = 42
 
     # educated guess - could be slightly higher or lower
     min_inference_size = max(1, int(round(n_proc * 0.9)))
 
-    last_checkpoint_num = max(os.listdir("data/checkpoints/rlgym-ppo-run-1713577849695434300/"), key=lambda d: int(d))
-    checkpoints_load_dir = "data/checkpoints/rlgym-ppo-run-1713577849695434300/" + str(last_checkpoint_num)
+    last_checkpoint_num = max(os.listdir("data/checkpoints/rlgym-ppo-run-1714063746292089200/"), key=lambda d: int(d))
+    checkpoints_load_dir = "data/checkpoints/rlgym-ppo-run-1714063746292089200/" + str(last_checkpoint_num)
 
     learner = Learner(build_rocketsim_env,
                       n_proc=n_proc,

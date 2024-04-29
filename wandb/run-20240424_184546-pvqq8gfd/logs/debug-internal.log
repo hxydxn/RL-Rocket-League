@@ -1,0 +1,67 @@
+2024-04-24 18:45:46,038 INFO    StreamThr :21324 [internal.py:wandb_internal():86] W&B internal server running at pid: 21324, started at: 2024-04-24 18:45:46.038389
+2024-04-24 18:45:46,040 DEBUG   HandlerThread:21324 [handler.py:handle_request():146] handle_request: status
+2024-04-24 18:45:46,050 INFO    WriterThread:21324 [datastore.py:open_for_write():87] open: C:\Users\Hayde\dev\RL-Rocket-League\wandb\run-20240424_184546-pvqq8gfd\run-pvqq8gfd.wandb
+2024-04-24 18:45:46,051 DEBUG   SenderThread:21324 [sender.py:send():379] send: header
+2024-04-24 18:45:46,262 DEBUG   SenderThread:21324 [sender.py:send():379] send: run
+2024-04-24 18:45:46,268 INFO    SenderThread:21324 [sender.py:_setup_resume():749] checking resume status for mae-mri/rlgym-ppo/pvqq8gfd
+2024-04-24 18:45:46,788 INFO    SenderThread:21324 [sender.py:_setup_resume():827] configured resuming with: ResumeState(resumed=True,step=49868,history=49868,events=6132,output=100056,runtime=184145.829049,wandb_runtime=None,summary={'Cumulative Timesteps': 1247041984, 'Collected Steps per Second': 9779.19213139782, 'y_vel': 239.74804698214663, 'Policy Reward': 16.978547904444454, 'Total Iteration Time': 12.104745799999996, 'Cumulative Model Updates': 158528, 'Timestep Consumption Time': 6.9916444999999925, '_runtime': 183932.7719833851, 'z_vel': 11.364838902418118, 'Policy Entropy': 4.337622059716119, 'SB3 Clip Fraction': 0.037042221882277064, 'Timestep Collection Time': 5.113101300000004, 'PPO Batch Consumption Time': 0.6587550905015733, '_step': 49867, '_timestamp': 1714002044.2862434, 'Mean KL Divergence': 0.0035597492630283036, 'Timesteps Collected': 50002, 'Value Function Loss': 0.002658683134035932, 'Policy Update Magnitude': 1.029294490814209, 'Overall Steps per Second': 4130.776542205456, 'Value Function Update Magnitude': 0.8780041337013245, 'x_vel': -5.699878861666859},config={'_wandb': {'desc': None, 'value': {'t': {'1': [1, 55], '2': [1, 55], '3': [5, 14, 16, 23, 62], '4': '3.9.19', '5': '0.16.6', '8': [3, 5], '13': 'windows-amd64'}, 'framework': 'torch', 'start_time': 1714002084.0, 'cli_version': '0.16.6', 'is_jupyter_run': False, 'python_version': '3.9.19', 'is_kaggle_kernel': False}}, 'n_proc': {'desc': None, 'value': 42}, 'critic_lr': {'desc': None, 'value': 0.0003}, 'gae_gamma': {'desc': None, 'value': 0.99}, 'policy_lr': {'desc': None, 'value': 0.0003}, 'gae_lambda': {'desc': None, 'value': 0.95}, 'ppo_epochs': {'desc': None, 'value': 2}, 'ppo_ent_coef': {'desc': None, 'value': 0.005}, 'ppo_batch_size': {'desc': None, 'value': 50000}, 'ppo_clip_range': {'desc': None, 'value': 0.2}, 'timestep_limit': {'desc': None, 'value': 50000000000}, 'exp_buffer_size': {'desc': None, 'value': 150000}, 'shm_buffer_size': {'desc': None, 'value': 8192}, 'standardize_obs': {'desc': None, 'value': False}, 'ts_per_iteration': {'desc': None, 'value': 50000}, 'critic_layer_sizes': {'desc': None, 'value': [1024, 1024, 512, 512]}, 'min_inference_size': {'desc': None, 'value': 38}, 'policy_layer_sizes': {'desc': None, 'value': [1024, 1024, 512, 512]}, 'ppo_minibatch_size': {'desc': None, 'value': 50000}, 'standardize_returns': {'desc': None, 'value': True}},tags=[])
+2024-04-24 18:45:46,983 INFO    SenderThread:21324 [dir_watcher.py:__init__():211] watching files in: C:\Users\Hayde\dev\RL-Rocket-League\wandb\run-20240424_184546-pvqq8gfd\files
+2024-04-24 18:45:46,984 INFO    SenderThread:21324 [sender.py:_start_run_threads():1124] run started: pvqq8gfd with start time 1713818200.210939
+2024-04-24 18:45:46,984 DEBUG   SenderThread:21324 [sender.py:send_request():406] send_request: summary_record
+2024-04-24 18:45:46,984 INFO    SenderThread:21324 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-04-24 18:45:46,993 DEBUG   HandlerThread:21324 [handler.py:handle_request():146] handle_request: check_version
+2024-04-24 18:45:46,994 DEBUG   SenderThread:21324 [sender.py:send_request():406] send_request: check_version
+2024-04-24 18:45:47,400 DEBUG   HandlerThread:21324 [handler.py:handle_request():146] handle_request: run_start
+2024-04-24 18:45:47,428 DEBUG   HandlerThread:21324 [system_info.py:__init__():26] System info init
+2024-04-24 18:45:47,428 DEBUG   HandlerThread:21324 [system_info.py:__init__():41] System info init done
+2024-04-24 18:45:47,428 INFO    HandlerThread:21324 [system_monitor.py:start():194] Starting system monitor
+2024-04-24 18:45:47,428 INFO    SystemMonitor:21324 [system_monitor.py:_start():158] Starting system asset monitoring threads
+2024-04-24 18:45:47,447 INFO    SystemMonitor:21324 [interfaces.py:start():190] Started cpu monitoring
+2024-04-24 18:45:47,448 INFO    SystemMonitor:21324 [interfaces.py:start():190] Started disk monitoring
+2024-04-24 18:45:47,449 INFO    SystemMonitor:21324 [interfaces.py:start():190] Started gpu monitoring
+2024-04-24 18:45:47,449 INFO    SystemMonitor:21324 [interfaces.py:start():190] Started memory monitoring
+2024-04-24 18:45:47,463 INFO    SystemMonitor:21324 [interfaces.py:start():190] Started network monitoring
+2024-04-24 18:45:47,610 DEBUG   HandlerThread:21324 [handler.py:handle_request():146] handle_request: python_packages
+2024-04-24 18:45:47,611 DEBUG   SenderThread:21324 [sender.py:send_request():406] send_request: python_packages
+2024-04-24 18:45:47,611 DEBUG   HandlerThread:21324 [handler.py:handle_request():146] handle_request: stop_status
+2024-04-24 18:45:47,612 DEBUG   SenderThread:21324 [sender.py:send_request():406] send_request: stop_status
+2024-04-24 18:45:47,612 DEBUG   HandlerThread:21324 [handler.py:handle_request():146] handle_request: internal_messages
+2024-04-24 18:45:47,991 INFO    Thread-16 :21324 [dir_watcher.py:_on_file_created():271] file/dir created: C:\Users\Hayde\dev\RL-Rocket-League\wandb\run-20240424_184546-pvqq8gfd\files\requirements.txt
+2024-04-24 18:45:47,991 INFO    Thread-16 :21324 [dir_watcher.py:_on_file_created():271] file/dir created: C:\Users\Hayde\dev\RL-Rocket-League\wandb\run-20240424_184546-pvqq8gfd\files\wandb-summary.json
+2024-04-24 18:45:48,215 DEBUG   SenderThread:21324 [sender.py:send():379] send: telemetry
+2024-04-24 18:45:48,999 INFO    Thread-16 :21324 [dir_watcher.py:_on_file_created():271] file/dir created: C:\Users\Hayde\dev\RL-Rocket-League\wandb\run-20240424_184546-pvqq8gfd\files\output.log
+2024-04-24 18:45:51,023 INFO    Thread-16 :21324 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\Hayde\dev\RL-Rocket-League\wandb\run-20240424_184546-pvqq8gfd\files\output.log
+2024-04-24 18:45:51,255 DEBUG   HandlerThread:21324 [handler.py:handle_request():146] handle_request: status_report
+2024-04-24 18:45:56,306 DEBUG   HandlerThread:21324 [handler.py:handle_request():146] handle_request: status_report
+2024-04-24 18:46:01,363 DEBUG   HandlerThread:21324 [handler.py:handle_request():146] handle_request: status_report
+2024-04-24 18:46:02,611 DEBUG   HandlerThread:21324 [handler.py:handle_request():146] handle_request: stop_status
+2024-04-24 18:46:02,612 DEBUG   HandlerThread:21324 [handler.py:handle_request():146] handle_request: internal_messages
+2024-04-24 18:46:02,612 DEBUG   SenderThread:21324 [sender.py:send_request():406] send_request: stop_status
+2024-04-24 18:46:06,764 DEBUG   HandlerThread:21324 [handler.py:handle_request():146] handle_request: status_report
+2024-04-24 18:46:11,809 DEBUG   HandlerThread:21324 [handler.py:handle_request():146] handle_request: status_report
+2024-04-24 18:46:16,875 DEBUG   HandlerThread:21324 [handler.py:handle_request():146] handle_request: status_report
+2024-04-24 18:46:17,319 INFO    Thread-16 :21324 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\Hayde\dev\RL-Rocket-League\wandb\run-20240424_184546-pvqq8gfd\files\config.yaml
+2024-04-24 18:46:17,625 DEBUG   HandlerThread:21324 [handler.py:handle_request():146] handle_request: stop_status
+2024-04-24 18:46:17,626 DEBUG   HandlerThread:21324 [handler.py:handle_request():146] handle_request: internal_messages
+2024-04-24 18:46:17,626 DEBUG   SenderThread:21324 [sender.py:send_request():406] send_request: stop_status
+2024-04-24 18:46:22,816 DEBUG   HandlerThread:21324 [handler.py:handle_request():146] handle_request: status_report
+2024-04-24 18:46:27,868 DEBUG   HandlerThread:21324 [handler.py:handle_request():146] handle_request: status_report
+2024-04-24 18:46:32,640 DEBUG   HandlerThread:21324 [handler.py:handle_request():146] handle_request: internal_messages
+2024-04-24 18:46:32,640 DEBUG   HandlerThread:21324 [handler.py:handle_request():146] handle_request: stop_status
+2024-04-24 18:46:32,640 DEBUG   SenderThread:21324 [sender.py:send_request():406] send_request: stop_status
+2024-04-24 18:46:33,745 DEBUG   HandlerThread:21324 [handler.py:handle_request():146] handle_request: status_report
+2024-04-24 18:46:38,802 DEBUG   HandlerThread:21324 [handler.py:handle_request():146] handle_request: status_report
+2024-04-24 18:46:43,854 DEBUG   HandlerThread:21324 [handler.py:handle_request():146] handle_request: status_report
+2024-04-24 18:46:47,468 DEBUG   SystemMonitor:21324 [system_monitor.py:_start():172] Starting system metrics aggregation loop
+2024-04-24 18:46:47,469 DEBUG   SenderThread:21324 [sender.py:send():379] send: stats
+2024-04-24 18:46:47,655 DEBUG   HandlerThread:21324 [handler.py:handle_request():146] handle_request: internal_messages
+2024-04-24 18:46:47,656 DEBUG   HandlerThread:21324 [handler.py:handle_request():146] handle_request: stop_status
+2024-04-24 18:46:47,656 DEBUG   SenderThread:21324 [sender.py:send_request():406] send_request: stop_status
+2024-04-24 18:46:49,767 DEBUG   HandlerThread:21324 [handler.py:handle_request():146] handle_request: status_report
+2024-04-24 18:46:54,823 DEBUG   HandlerThread:21324 [handler.py:handle_request():146] handle_request: status_report
+2024-04-24 18:46:59,882 DEBUG   HandlerThread:21324 [handler.py:handle_request():146] handle_request: status_report
+2024-04-24 18:47:02,662 DEBUG   HandlerThread:21324 [handler.py:handle_request():146] handle_request: stop_status
+2024-04-24 18:47:02,663 DEBUG   HandlerThread:21324 [handler.py:handle_request():146] handle_request: internal_messages
+2024-04-24 18:47:02,663 DEBUG   SenderThread:21324 [sender.py:send_request():406] send_request: stop_status
+2024-04-24 18:47:05,785 DEBUG   HandlerThread:21324 [handler.py:handle_request():146] handle_request: status_report
+2024-04-24 18:47:10,810 DEBUG   HandlerThread:21324 [handler.py:handle_request():146] handle_request: status_report

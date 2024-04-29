@@ -1,0 +1,256 @@
+2024-04-26 21:35:49,379 INFO    StreamThr :124320 [internal.py:wandb_internal():86] W&B internal server running at pid: 124320, started at: 2024-04-26 21:35:49.378475
+2024-04-26 21:35:49,380 DEBUG   HandlerThread:124320 [handler.py:handle_request():146] handle_request: status
+2024-04-26 21:35:49,383 INFO    WriterThread:124320 [datastore.py:open_for_write():87] open: C:\Users\Hayde\dev\RL-Rocket-League\wandb\run-20240426_213549-vshq57oh\run-vshq57oh.wandb
+2024-04-26 21:35:49,383 DEBUG   SenderThread:124320 [sender.py:send():379] send: header
+2024-04-26 21:35:49,418 DEBUG   SenderThread:124320 [sender.py:send():379] send: run
+2024-04-26 21:35:50,330 INFO    SenderThread:124320 [dir_watcher.py:__init__():211] watching files in: C:\Users\Hayde\dev\RL-Rocket-League\wandb\run-20240426_213549-vshq57oh\files
+2024-04-26 21:35:50,330 INFO    SenderThread:124320 [sender.py:_start_run_threads():1124] run started: vshq57oh with start time 1714185349.379474
+2024-04-26 21:35:50,341 DEBUG   HandlerThread:124320 [handler.py:handle_request():146] handle_request: check_version
+2024-04-26 21:35:50,341 DEBUG   SenderThread:124320 [sender.py:send_request():406] send_request: check_version
+2024-04-26 21:35:50,815 DEBUG   HandlerThread:124320 [handler.py:handle_request():146] handle_request: run_start
+2024-04-26 21:35:50,840 DEBUG   HandlerThread:124320 [system_info.py:__init__():26] System info init
+2024-04-26 21:35:50,840 DEBUG   HandlerThread:124320 [system_info.py:__init__():41] System info init done
+2024-04-26 21:35:50,840 INFO    HandlerThread:124320 [system_monitor.py:start():194] Starting system monitor
+2024-04-26 21:35:50,840 INFO    SystemMonitor:124320 [system_monitor.py:_start():158] Starting system asset monitoring threads
+2024-04-26 21:35:50,840 INFO    HandlerThread:124320 [system_monitor.py:probe():214] Collecting system info
+2024-04-26 21:35:50,860 INFO    SystemMonitor:124320 [interfaces.py:start():190] Started cpu monitoring
+2024-04-26 21:35:50,861 INFO    SystemMonitor:124320 [interfaces.py:start():190] Started disk monitoring
+2024-04-26 21:35:50,861 INFO    SystemMonitor:124320 [interfaces.py:start():190] Started gpu monitoring
+2024-04-26 21:35:50,862 INFO    SystemMonitor:124320 [interfaces.py:start():190] Started memory monitoring
+2024-04-26 21:35:50,875 INFO    SystemMonitor:124320 [interfaces.py:start():190] Started network monitoring
+2024-04-26 21:35:50,881 DEBUG   HandlerThread:124320 [system_info.py:probe():150] Probing system
+2024-04-26 21:35:50,882 DEBUG   HandlerThread:124320 [system_info.py:_probe_git():135] Probing git
+2024-04-26 21:35:50,952 DEBUG   HandlerThread:124320 [system_info.py:_probe_git():143] Probing git done
+2024-04-26 21:35:50,952 DEBUG   HandlerThread:124320 [system_info.py:probe():198] Probing system done
+2024-04-26 21:35:50,952 DEBUG   HandlerThread:124320 [system_monitor.py:probe():223] {'os': 'Windows-10-10.0.22631-SP0', 'python': '3.9.19', 'heartbeatAt': '2024-04-27T02:35:50.881385', 'startedAt': '2024-04-27T02:35:49.373469', 'docker': None, 'cuda': None, 'args': (), 'state': 'running', 'program': 'c:\\Users\\Hayde\\dev\\RL-Rocket-League\\example7.py', 'codePathLocal': 'example7.py', 'codePath': 'example7.py', 'git': {'remote': 'https://github.com/hxydxn/RL-Rocket-League.git', 'commit': '9ce3178d6f8196f06d690abc88e04747eb62b4e0'}, 'email': 'haydenwarren2003@gmail.com', 'root': 'C:/Users/Hayde/dev/RL-Rocket-League', 'host': 'PCofChampions', 'username': 'Hayde', 'executable': 'C:\\Users\\Hayde\\miniconda3\\envs\\rl\\python.exe', 'cpu_count': 8, 'cpu_count_logical': 16, 'cpu_freq': {'current': 3593.0, 'min': 0.0, 'max': 3593.0}, 'cpu_freq_per_core': [{'current': 3593.0, 'min': 0.0, 'max': 3593.0}], 'disk': {'/': {'total': 464.47069931030273, 'used': 437.09590911865234}}, 'gpu': 'NVIDIA GeForce GTX 1070 Ti', 'gpu_count': 1, 'gpu_devices': [{'name': 'NVIDIA GeForce GTX 1070 Ti', 'memory_total': 8589934592}], 'memory': {'total': 31.91360092163086}}
+2024-04-26 21:35:50,952 INFO    HandlerThread:124320 [system_monitor.py:probe():224] Finished collecting system info
+2024-04-26 21:35:50,952 INFO    HandlerThread:124320 [system_monitor.py:probe():227] Publishing system info
+2024-04-26 21:35:50,952 DEBUG   HandlerThread:124320 [system_info.py:_save_conda():207] Saving list of conda packages installed into the current environment
+2024-04-26 21:35:51,333 INFO    Thread-16 :124320 [dir_watcher.py:_on_file_created():271] file/dir created: C:\Users\Hayde\dev\RL-Rocket-League\wandb\run-20240426_213549-vshq57oh\files\conda-environment.yaml
+2024-04-26 21:35:53,540 DEBUG   HandlerThread:124320 [system_info.py:_save_conda():222] Saving conda packages done
+2024-04-26 21:35:53,541 INFO    HandlerThread:124320 [system_monitor.py:probe():229] Finished publishing system info
+2024-04-26 21:35:53,545 DEBUG   SenderThread:124320 [sender.py:send():379] send: files
+2024-04-26 21:35:53,545 INFO    SenderThread:124320 [sender.py:_save_file():1390] saving file wandb-metadata.json with policy now
+2024-04-26 21:35:53,666 DEBUG   HandlerThread:124320 [handler.py:handle_request():146] handle_request: python_packages
+2024-04-26 21:35:53,667 DEBUG   SenderThread:124320 [sender.py:send_request():406] send_request: python_packages
+2024-04-26 21:35:53,667 DEBUG   HandlerThread:124320 [handler.py:handle_request():146] handle_request: stop_status
+2024-04-26 21:35:53,668 DEBUG   SenderThread:124320 [sender.py:send_request():406] send_request: stop_status
+2024-04-26 21:35:53,669 DEBUG   HandlerThread:124320 [handler.py:handle_request():146] handle_request: internal_messages
+2024-04-26 21:35:54,360 DEBUG   SenderThread:124320 [sender.py:send():379] send: telemetry
+2024-04-26 21:35:54,375 INFO    Thread-16 :124320 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\Hayde\dev\RL-Rocket-League\wandb\run-20240426_213549-vshq57oh\files\conda-environment.yaml
+2024-04-26 21:35:54,375 INFO    Thread-16 :124320 [dir_watcher.py:_on_file_created():271] file/dir created: C:\Users\Hayde\dev\RL-Rocket-League\wandb\run-20240426_213549-vshq57oh\files\wandb-metadata.json
+2024-04-26 21:35:54,375 INFO    Thread-16 :124320 [dir_watcher.py:_on_file_created():271] file/dir created: C:\Users\Hayde\dev\RL-Rocket-League\wandb\run-20240426_213549-vshq57oh\files\requirements.txt
+2024-04-26 21:35:54,375 INFO    Thread-16 :124320 [dir_watcher.py:_on_file_created():271] file/dir created: C:\Users\Hayde\dev\RL-Rocket-League\wandb\run-20240426_213549-vshq57oh\files\output.log
+2024-04-26 21:35:54,420 INFO    wandb-upload_0:124320 [upload_job.py:push():131] Uploaded file C:\Users\Hayde\AppData\Local\Temp\tmpx6pefpxkwandb\ptsqvn9c-wandb-metadata.json
+2024-04-26 21:35:55,368 DEBUG   HandlerThread:124320 [handler.py:handle_request():146] handle_request: status_report
+2024-04-26 21:35:56,386 INFO    Thread-16 :124320 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\Hayde\dev\RL-Rocket-League\wandb\run-20240426_213549-vshq57oh\files\output.log
+2024-04-26 21:35:58,903 DEBUG   HandlerThread:124320 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-26 21:35:58,904 DEBUG   SenderThread:124320 [sender.py:send():379] send: history
+2024-04-26 21:35:58,904 DEBUG   SenderThread:124320 [sender.py:send_request():406] send_request: summary_record
+2024-04-26 21:35:58,906 INFO    SenderThread:124320 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-04-26 21:35:59,403 INFO    Thread-16 :124320 [dir_watcher.py:_on_file_created():271] file/dir created: C:\Users\Hayde\dev\RL-Rocket-League\wandb\run-20240426_213549-vshq57oh\files\wandb-summary.json
+2024-04-26 21:36:00,412 DEBUG   HandlerThread:124320 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-26 21:36:00,414 DEBUG   SenderThread:124320 [sender.py:send():379] send: history
+2024-04-26 21:36:00,414 DEBUG   SenderThread:124320 [sender.py:send_request():406] send_request: summary_record
+2024-04-26 21:36:00,414 DEBUG   HandlerThread:124320 [handler.py:handle_request():146] handle_request: status_report
+2024-04-26 21:36:00,416 INFO    SenderThread:124320 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-04-26 21:36:01,413 INFO    Thread-16 :124320 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\Hayde\dev\RL-Rocket-League\wandb\run-20240426_213549-vshq57oh\files\wandb-summary.json
+2024-04-26 21:36:02,423 INFO    Thread-16 :124320 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\Hayde\dev\RL-Rocket-League\wandb\run-20240426_213549-vshq57oh\files\output.log
+2024-04-26 21:36:05,454 DEBUG   HandlerThread:124320 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-26 21:36:05,454 DEBUG   SenderThread:124320 [sender.py:send():379] send: history
+2024-04-26 21:36:05,455 DEBUG   SenderThread:124320 [sender.py:send_request():406] send_request: summary_record
+2024-04-26 21:36:05,455 DEBUG   HandlerThread:124320 [handler.py:handle_request():146] handle_request: status_report
+2024-04-26 21:36:05,456 INFO    SenderThread:124320 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-04-26 21:36:05,461 INFO    Thread-16 :124320 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\Hayde\dev\RL-Rocket-League\wandb\run-20240426_213549-vshq57oh\files\wandb-summary.json
+2024-04-26 21:36:06,722 DEBUG   HandlerThread:124320 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-26 21:36:06,724 DEBUG   SenderThread:124320 [sender.py:send():379] send: history
+2024-04-26 21:36:06,724 DEBUG   SenderThread:124320 [sender.py:send_request():406] send_request: summary_record
+2024-04-26 21:36:06,725 INFO    SenderThread:124320 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-04-26 21:36:07,488 INFO    Thread-16 :124320 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\Hayde\dev\RL-Rocket-League\wandb\run-20240426_213549-vshq57oh\files\wandb-summary.json
+2024-04-26 21:36:08,505 INFO    Thread-16 :124320 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\Hayde\dev\RL-Rocket-League\wandb\run-20240426_213549-vshq57oh\files\output.log
+2024-04-26 21:36:08,673 DEBUG   HandlerThread:124320 [handler.py:handle_request():146] handle_request: stop_status
+2024-04-26 21:36:08,673 DEBUG   HandlerThread:124320 [handler.py:handle_request():146] handle_request: internal_messages
+2024-04-26 21:36:08,674 DEBUG   SenderThread:124320 [sender.py:send_request():406] send_request: stop_status
+2024-04-26 21:36:10,843 DEBUG   HandlerThread:124320 [handler.py:handle_request():146] handle_request: status_report
+2024-04-26 21:36:11,686 DEBUG   HandlerThread:124320 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-26 21:36:11,687 DEBUG   SenderThread:124320 [sender.py:send():379] send: history
+2024-04-26 21:36:11,687 DEBUG   SenderThread:124320 [sender.py:send_request():406] send_request: summary_record
+2024-04-26 21:36:11,688 INFO    SenderThread:124320 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-04-26 21:36:12,558 INFO    Thread-16 :124320 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\Hayde\dev\RL-Rocket-League\wandb\run-20240426_213549-vshq57oh\files\wandb-summary.json
+2024-04-26 21:36:13,763 DEBUG   HandlerThread:124320 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-26 21:36:13,764 DEBUG   SenderThread:124320 [sender.py:send():379] send: history
+2024-04-26 21:36:13,764 DEBUG   SenderThread:124320 [sender.py:send_request():406] send_request: summary_record
+2024-04-26 21:36:13,767 INFO    SenderThread:124320 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-04-26 21:36:14,587 INFO    Thread-16 :124320 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\Hayde\dev\RL-Rocket-League\wandb\run-20240426_213549-vshq57oh\files\wandb-summary.json
+2024-04-26 21:36:14,588 INFO    Thread-16 :124320 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\Hayde\dev\RL-Rocket-League\wandb\run-20240426_213549-vshq57oh\files\output.log
+2024-04-26 21:36:16,794 DEBUG   HandlerThread:124320 [handler.py:handle_request():146] handle_request: status_report
+2024-04-26 21:36:19,171 DEBUG   HandlerThread:124320 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-26 21:36:19,171 DEBUG   SenderThread:124320 [sender.py:send():379] send: history
+2024-04-26 21:36:19,172 DEBUG   SenderThread:124320 [sender.py:send_request():406] send_request: summary_record
+2024-04-26 21:36:19,174 INFO    SenderThread:124320 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-04-26 21:36:19,622 INFO    Thread-16 :124320 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\Hayde\dev\RL-Rocket-League\wandb\run-20240426_213549-vshq57oh\files\wandb-summary.json
+2024-04-26 21:36:21,908 DEBUG   HandlerThread:124320 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-26 21:36:21,909 DEBUG   SenderThread:124320 [sender.py:send():379] send: history
+2024-04-26 21:36:21,913 DEBUG   HandlerThread:124320 [handler.py:handle_request():146] handle_request: status_report
+2024-04-26 21:36:22,035 DEBUG   SenderThread:124320 [sender.py:send_request():406] send_request: summary_record
+2024-04-26 21:36:22,035 INFO    SenderThread:124320 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-04-26 21:36:22,655 INFO    Thread-16 :124320 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\Hayde\dev\RL-Rocket-League\wandb\run-20240426_213549-vshq57oh\files\config.yaml
+2024-04-26 21:36:22,655 INFO    Thread-16 :124320 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\Hayde\dev\RL-Rocket-League\wandb\run-20240426_213549-vshq57oh\files\wandb-summary.json
+2024-04-26 21:36:22,656 INFO    Thread-16 :124320 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\Hayde\dev\RL-Rocket-League\wandb\run-20240426_213549-vshq57oh\files\output.log
+2024-04-26 21:36:23,683 DEBUG   HandlerThread:124320 [handler.py:handle_request():146] handle_request: internal_messages
+2024-04-26 21:36:23,684 DEBUG   HandlerThread:124320 [handler.py:handle_request():146] handle_request: stop_status
+2024-04-26 21:36:23,684 DEBUG   SenderThread:124320 [sender.py:send_request():406] send_request: stop_status
+2024-04-26 21:36:26,996 DEBUG   HandlerThread:124320 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-26 21:36:26,996 DEBUG   SenderThread:124320 [sender.py:send():379] send: history
+2024-04-26 21:36:26,996 DEBUG   SenderThread:124320 [sender.py:send_request():406] send_request: summary_record
+2024-04-26 21:36:26,998 INFO    SenderThread:124320 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-04-26 21:36:27,714 INFO    Thread-16 :124320 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\Hayde\dev\RL-Rocket-League\wandb\run-20240426_213549-vshq57oh\files\wandb-summary.json
+2024-04-26 21:36:28,009 DEBUG   HandlerThread:124320 [handler.py:handle_request():146] handle_request: status_report
+2024-04-26 21:36:29,764 DEBUG   HandlerThread:124320 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-26 21:36:29,766 DEBUG   SenderThread:124320 [sender.py:send():379] send: history
+2024-04-26 21:36:29,766 DEBUG   SenderThread:124320 [sender.py:send_request():406] send_request: summary_record
+2024-04-26 21:36:29,767 INFO    SenderThread:124320 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-04-26 21:36:30,727 INFO    Thread-16 :124320 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\Hayde\dev\RL-Rocket-League\wandb\run-20240426_213549-vshq57oh\files\wandb-summary.json
+2024-04-26 21:36:30,727 INFO    Thread-16 :124320 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\Hayde\dev\RL-Rocket-League\wandb\run-20240426_213549-vshq57oh\files\output.log
+2024-04-26 21:36:33,803 DEBUG   HandlerThread:124320 [handler.py:handle_request():146] handle_request: status_report
+2024-04-26 21:36:34,512 DEBUG   SenderThread:124320 [sender.py:send():379] send: telemetry
+2024-04-26 21:36:34,513 DEBUG   SenderThread:124320 [sender.py:send():379] send: exit
+2024-04-26 21:36:34,513 INFO    SenderThread:124320 [sender.py:send_exit():586] handling exit code: 0
+2024-04-26 21:36:34,513 INFO    SenderThread:124320 [sender.py:send_exit():588] handling runtime: 43
+2024-04-26 21:36:34,514 INFO    SenderThread:124320 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-04-26 21:36:34,514 INFO    SenderThread:124320 [sender.py:send_exit():594] send defer
+2024-04-26 21:36:34,514 DEBUG   HandlerThread:124320 [handler.py:handle_request():146] handle_request: defer
+2024-04-26 21:36:34,514 INFO    HandlerThread:124320 [handler.py:handle_request_defer():172] handle defer: 0
+2024-04-26 21:36:34,514 DEBUG   SenderThread:124320 [sender.py:send_request():406] send_request: defer
+2024-04-26 21:36:34,514 INFO    SenderThread:124320 [sender.py:send_request_defer():610] handle sender defer: 0
+2024-04-26 21:36:34,515 INFO    SenderThread:124320 [sender.py:transition_state():614] send defer: 1
+2024-04-26 21:36:34,515 DEBUG   HandlerThread:124320 [handler.py:handle_request():146] handle_request: defer
+2024-04-26 21:36:34,515 INFO    HandlerThread:124320 [handler.py:handle_request_defer():172] handle defer: 1
+2024-04-26 21:36:34,515 DEBUG   SenderThread:124320 [sender.py:send_request():406] send_request: defer
+2024-04-26 21:36:34,515 INFO    SenderThread:124320 [sender.py:send_request_defer():610] handle sender defer: 1
+2024-04-26 21:36:34,515 INFO    SenderThread:124320 [sender.py:transition_state():614] send defer: 2
+2024-04-26 21:36:34,515 DEBUG   HandlerThread:124320 [handler.py:handle_request():146] handle_request: defer
+2024-04-26 21:36:34,515 INFO    HandlerThread:124320 [handler.py:handle_request_defer():172] handle defer: 2
+2024-04-26 21:36:34,515 INFO    HandlerThread:124320 [system_monitor.py:finish():203] Stopping system monitor
+2024-04-26 21:36:34,515 DEBUG   SystemMonitor:124320 [system_monitor.py:_start():172] Starting system metrics aggregation loop
+2024-04-26 21:36:34,515 DEBUG   SystemMonitor:124320 [system_monitor.py:_start():179] Finished system metrics aggregation loop
+2024-04-26 21:36:34,515 DEBUG   SystemMonitor:124320 [system_monitor.py:_start():183] Publishing last batch of metrics
+2024-04-26 21:36:34,539 INFO    HandlerThread:124320 [interfaces.py:finish():202] Joined cpu monitor
+2024-04-26 21:36:34,540 INFO    HandlerThread:124320 [interfaces.py:finish():202] Joined disk monitor
+2024-04-26 21:36:34,685 INFO    HandlerThread:124320 [interfaces.py:finish():202] Joined gpu monitor
+2024-04-26 21:36:34,685 INFO    HandlerThread:124320 [interfaces.py:finish():202] Joined memory monitor
+2024-04-26 21:36:34,685 INFO    HandlerThread:124320 [interfaces.py:finish():202] Joined network monitor
+2024-04-26 21:36:34,686 DEBUG   SenderThread:124320 [sender.py:send_request():406] send_request: defer
+2024-04-26 21:36:34,686 INFO    SenderThread:124320 [sender.py:send_request_defer():610] handle sender defer: 2
+2024-04-26 21:36:34,686 INFO    SenderThread:124320 [sender.py:transition_state():614] send defer: 3
+2024-04-26 21:36:34,686 DEBUG   SenderThread:124320 [sender.py:send():379] send: stats
+2024-04-26 21:36:34,686 DEBUG   HandlerThread:124320 [handler.py:handle_request():146] handle_request: defer
+2024-04-26 21:36:34,687 INFO    HandlerThread:124320 [handler.py:handle_request_defer():172] handle defer: 3
+2024-04-26 21:36:34,687 DEBUG   SenderThread:124320 [sender.py:send_request():406] send_request: defer
+2024-04-26 21:36:34,687 INFO    SenderThread:124320 [sender.py:send_request_defer():610] handle sender defer: 3
+2024-04-26 21:36:34,687 INFO    SenderThread:124320 [sender.py:transition_state():614] send defer: 4
+2024-04-26 21:36:34,688 DEBUG   HandlerThread:124320 [handler.py:handle_request():146] handle_request: defer
+2024-04-26 21:36:34,688 INFO    HandlerThread:124320 [handler.py:handle_request_defer():172] handle defer: 4
+2024-04-26 21:36:34,688 DEBUG   SenderThread:124320 [sender.py:send_request():406] send_request: defer
+2024-04-26 21:36:34,688 INFO    SenderThread:124320 [sender.py:send_request_defer():610] handle sender defer: 4
+2024-04-26 21:36:34,688 INFO    SenderThread:124320 [sender.py:transition_state():614] send defer: 5
+2024-04-26 21:36:34,688 DEBUG   HandlerThread:124320 [handler.py:handle_request():146] handle_request: defer
+2024-04-26 21:36:34,688 INFO    HandlerThread:124320 [handler.py:handle_request_defer():172] handle defer: 5
+2024-04-26 21:36:34,689 DEBUG   SenderThread:124320 [sender.py:send():379] send: summary
+2024-04-26 21:36:34,689 INFO    SenderThread:124320 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-04-26 21:36:34,690 DEBUG   SenderThread:124320 [sender.py:send_request():406] send_request: defer
+2024-04-26 21:36:34,690 INFO    SenderThread:124320 [sender.py:send_request_defer():610] handle sender defer: 5
+2024-04-26 21:36:34,690 INFO    SenderThread:124320 [sender.py:transition_state():614] send defer: 6
+2024-04-26 21:36:34,690 DEBUG   HandlerThread:124320 [handler.py:handle_request():146] handle_request: defer
+2024-04-26 21:36:34,690 INFO    HandlerThread:124320 [handler.py:handle_request_defer():172] handle defer: 6
+2024-04-26 21:36:34,690 DEBUG   SenderThread:124320 [sender.py:send_request():406] send_request: defer
+2024-04-26 21:36:34,690 INFO    SenderThread:124320 [sender.py:send_request_defer():610] handle sender defer: 6
+2024-04-26 21:36:34,694 DEBUG   HandlerThread:124320 [handler.py:handle_request():146] handle_request: status_report
+2024-04-26 21:36:34,800 INFO    Thread-16 :124320 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\Hayde\dev\RL-Rocket-League\wandb\run-20240426_213549-vshq57oh\files\wandb-summary.json
+2024-04-26 21:36:34,873 INFO    SenderThread:124320 [sender.py:transition_state():614] send defer: 7
+2024-04-26 21:36:34,873 DEBUG   HandlerThread:124320 [handler.py:handle_request():146] handle_request: defer
+2024-04-26 21:36:34,873 INFO    HandlerThread:124320 [handler.py:handle_request_defer():172] handle defer: 7
+2024-04-26 21:36:34,873 DEBUG   SenderThread:124320 [sender.py:send_request():406] send_request: defer
+2024-04-26 21:36:34,873 INFO    SenderThread:124320 [sender.py:send_request_defer():610] handle sender defer: 7
+2024-04-26 21:36:35,517 DEBUG   HandlerThread:124320 [handler.py:handle_request():146] handle_request: poll_exit
+2024-04-26 21:36:35,815 INFO    Thread-16 :124320 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\Hayde\dev\RL-Rocket-League\wandb\run-20240426_213549-vshq57oh\files\config.yaml
+2024-04-26 21:36:36,594 INFO    SenderThread:124320 [sender.py:transition_state():614] send defer: 8
+2024-04-26 21:36:36,594 DEBUG   SenderThread:124320 [sender.py:send_request():406] send_request: poll_exit
+2024-04-26 21:36:36,594 DEBUG   HandlerThread:124320 [handler.py:handle_request():146] handle_request: defer
+2024-04-26 21:36:36,595 INFO    HandlerThread:124320 [handler.py:handle_request_defer():172] handle defer: 8
+2024-04-26 21:36:36,595 DEBUG   SenderThread:124320 [sender.py:send_request():406] send_request: defer
+2024-04-26 21:36:36,595 INFO    SenderThread:124320 [sender.py:send_request_defer():610] handle sender defer: 8
+2024-04-26 21:36:36,595 INFO    SenderThread:124320 [job_builder.py:build():318] Attempting to build job artifact
+2024-04-26 21:36:36,596 INFO    SenderThread:124320 [job_builder.py:_get_source_type():455] is repo sourced job
+2024-04-26 21:36:36,634 INFO    SenderThread:124320 [job_builder.py:build():431] adding wandb-job metadata file
+2024-04-26 21:36:36,646 INFO    SenderThread:124320 [sender.py:transition_state():614] send defer: 9
+2024-04-26 21:36:36,646 DEBUG   SenderThread:124320 [sender.py:send():379] send: artifact
+2024-04-26 21:36:36,646 DEBUG   HandlerThread:124320 [handler.py:handle_request():146] handle_request: defer
+2024-04-26 21:36:36,647 INFO    HandlerThread:124320 [handler.py:handle_request_defer():172] handle defer: 9
+2024-04-26 21:36:36,830 INFO    Thread-16 :124320 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\Hayde\dev\RL-Rocket-League\wandb\run-20240426_213549-vshq57oh\files\output.log
+2024-04-26 21:36:37,547 DEBUG   HandlerThread:124320 [handler.py:handle_request():146] handle_request: poll_exit
+2024-04-26 21:36:37,561 INFO    wandb-upload_1:124320 [upload_job.py:push():89] Uploaded file C:\Users\Hayde\AppData\Local\Temp\tmpcwgijqs9\wandb-job.json
+2024-04-26 21:36:38,040 INFO    wandb-upload_0:124320 [upload_job.py:push():89] Uploaded file C:\Users\Hayde\AppData\Local\wandb\wandb\artifacts\staging\tmpzvpj405i
+2024-04-26 21:36:38,798 INFO    SenderThread:124320 [sender.py:send_artifact():1468] sent artifact job-https___github.com_hxydxn_RL-Rocket-League.git_example7.py - {'id': 'QXJ0aWZhY3Q6ODEyNDY5ODk1', 'state': 'PENDING', 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjE2NzI5OTQ2Nw==', 'latestArtifact': None}}
+2024-04-26 21:36:38,798 DEBUG   SenderThread:124320 [sender.py:send_request():406] send_request: defer
+2024-04-26 21:36:38,798 INFO    SenderThread:124320 [sender.py:send_request_defer():610] handle sender defer: 9
+2024-04-26 21:36:38,798 INFO    SenderThread:124320 [dir_watcher.py:finish():358] shutting down directory watcher
+2024-04-26 21:36:38,852 INFO    SenderThread:124320 [dir_watcher.py:finish():388] scan: C:\Users\Hayde\dev\RL-Rocket-League\wandb\run-20240426_213549-vshq57oh\files
+2024-04-26 21:36:38,853 INFO    SenderThread:124320 [dir_watcher.py:finish():402] scan save: C:\Users\Hayde\dev\RL-Rocket-League\wandb\run-20240426_213549-vshq57oh\files\conda-environment.yaml conda-environment.yaml
+2024-04-26 21:36:38,853 INFO    SenderThread:124320 [dir_watcher.py:finish():402] scan save: C:\Users\Hayde\dev\RL-Rocket-League\wandb\run-20240426_213549-vshq57oh\files\config.yaml config.yaml
+2024-04-26 21:36:38,855 INFO    SenderThread:124320 [dir_watcher.py:finish():402] scan save: C:\Users\Hayde\dev\RL-Rocket-League\wandb\run-20240426_213549-vshq57oh\files\output.log output.log
+2024-04-26 21:36:38,857 INFO    SenderThread:124320 [dir_watcher.py:finish():402] scan save: C:\Users\Hayde\dev\RL-Rocket-League\wandb\run-20240426_213549-vshq57oh\files\requirements.txt requirements.txt
+2024-04-26 21:36:38,858 INFO    SenderThread:124320 [dir_watcher.py:finish():402] scan save: C:\Users\Hayde\dev\RL-Rocket-League\wandb\run-20240426_213549-vshq57oh\files\wandb-metadata.json wandb-metadata.json
+2024-04-26 21:36:38,858 INFO    SenderThread:124320 [dir_watcher.py:finish():402] scan save: C:\Users\Hayde\dev\RL-Rocket-League\wandb\run-20240426_213549-vshq57oh\files\wandb-summary.json wandb-summary.json
+2024-04-26 21:36:38,859 INFO    SenderThread:124320 [sender.py:transition_state():614] send defer: 10
+2024-04-26 21:36:38,860 DEBUG   SenderThread:124320 [sender.py:send_request():406] send_request: poll_exit
+2024-04-26 21:36:38,862 DEBUG   HandlerThread:124320 [handler.py:handle_request():146] handle_request: defer
+2024-04-26 21:36:38,864 INFO    HandlerThread:124320 [handler.py:handle_request_defer():172] handle defer: 10
+2024-04-26 21:36:38,864 DEBUG   SenderThread:124320 [sender.py:send_request():406] send_request: defer
+2024-04-26 21:36:38,865 INFO    SenderThread:124320 [sender.py:send_request_defer():610] handle sender defer: 10
+2024-04-26 21:36:38,865 INFO    SenderThread:124320 [file_pusher.py:finish():172] shutting down file pusher
+2024-04-26 21:36:39,119 INFO    wandb-upload_1:124320 [upload_job.py:push():131] Uploaded file C:\Users\Hayde\dev\RL-Rocket-League\wandb\run-20240426_213549-vshq57oh\files\conda-environment.yaml
+2024-04-26 21:36:39,284 INFO    wandb-upload_0:124320 [upload_job.py:push():131] Uploaded file C:\Users\Hayde\dev\RL-Rocket-League\wandb\run-20240426_213549-vshq57oh\files\config.yaml
+2024-04-26 21:36:39,568 DEBUG   HandlerThread:124320 [handler.py:handle_request():146] handle_request: poll_exit
+2024-04-26 21:36:39,569 DEBUG   SenderThread:124320 [sender.py:send_request():406] send_request: poll_exit
+2024-04-26 21:36:39,588 INFO    wandb-upload_4:124320 [upload_job.py:push():131] Uploaded file C:\Users\Hayde\dev\RL-Rocket-League\wandb\run-20240426_213549-vshq57oh\files\wandb-summary.json
+2024-04-26 21:36:39,671 INFO    wandb-upload_3:124320 [upload_job.py:push():131] Uploaded file C:\Users\Hayde\dev\RL-Rocket-League\wandb\run-20240426_213549-vshq57oh\files\requirements.txt
+2024-04-26 21:36:39,954 INFO    wandb-upload_2:124320 [upload_job.py:push():131] Uploaded file C:\Users\Hayde\dev\RL-Rocket-League\wandb\run-20240426_213549-vshq57oh\files\output.log
+2024-04-26 21:36:40,161 INFO    Thread-15 :124320 [sender.py:transition_state():614] send defer: 11
+2024-04-26 21:36:40,161 DEBUG   HandlerThread:124320 [handler.py:handle_request():146] handle_request: defer
+2024-04-26 21:36:40,161 INFO    HandlerThread:124320 [handler.py:handle_request_defer():172] handle defer: 11
+2024-04-26 21:36:40,162 DEBUG   SenderThread:124320 [sender.py:send_request():406] send_request: defer
+2024-04-26 21:36:40,162 INFO    SenderThread:124320 [sender.py:send_request_defer():610] handle sender defer: 11
+2024-04-26 21:36:40,162 INFO    SenderThread:124320 [file_pusher.py:join():178] waiting for file pusher
+2024-04-26 21:36:40,162 INFO    SenderThread:124320 [sender.py:transition_state():614] send defer: 12
+2024-04-26 21:36:40,162 DEBUG   HandlerThread:124320 [handler.py:handle_request():146] handle_request: defer
+2024-04-26 21:36:40,162 INFO    HandlerThread:124320 [handler.py:handle_request_defer():172] handle defer: 12
+2024-04-26 21:36:40,162 DEBUG   SenderThread:124320 [sender.py:send_request():406] send_request: defer
+2024-04-26 21:36:40,162 INFO    SenderThread:124320 [sender.py:send_request_defer():610] handle sender defer: 12
+2024-04-26 21:36:40,162 INFO    SenderThread:124320 [file_stream.py:finish():614] file stream finish called
+2024-04-26 21:36:40,261 INFO    SenderThread:124320 [file_stream.py:finish():618] file stream finish is done
+2024-04-26 21:36:40,261 INFO    SenderThread:124320 [sender.py:transition_state():614] send defer: 13
+2024-04-26 21:36:40,261 DEBUG   HandlerThread:124320 [handler.py:handle_request():146] handle_request: defer
+2024-04-26 21:36:40,261 INFO    HandlerThread:124320 [handler.py:handle_request_defer():172] handle defer: 13
+2024-04-26 21:36:40,261 DEBUG   SenderThread:124320 [sender.py:send_request():406] send_request: defer
+2024-04-26 21:36:40,261 INFO    SenderThread:124320 [sender.py:send_request_defer():610] handle sender defer: 13
+2024-04-26 21:36:40,261 INFO    SenderThread:124320 [sender.py:transition_state():614] send defer: 14
+2024-04-26 21:36:40,262 DEBUG   HandlerThread:124320 [handler.py:handle_request():146] handle_request: defer
+2024-04-26 21:36:40,262 DEBUG   SenderThread:124320 [sender.py:send():379] send: final
+2024-04-26 21:36:40,262 INFO    HandlerThread:124320 [handler.py:handle_request_defer():172] handle defer: 14
+2024-04-26 21:36:40,262 DEBUG   SenderThread:124320 [sender.py:send():379] send: footer
+2024-04-26 21:36:40,262 DEBUG   SenderThread:124320 [sender.py:send_request():406] send_request: defer
+2024-04-26 21:36:40,262 INFO    SenderThread:124320 [sender.py:send_request_defer():610] handle sender defer: 14
+2024-04-26 21:36:40,263 DEBUG   HandlerThread:124320 [handler.py:handle_request():146] handle_request: poll_exit
+2024-04-26 21:36:40,263 DEBUG   SenderThread:124320 [sender.py:send_request():406] send_request: poll_exit
+2024-04-26 21:36:40,264 DEBUG   HandlerThread:124320 [handler.py:handle_request():146] handle_request: internal_messages
+2024-04-26 21:36:40,264 DEBUG   HandlerThread:124320 [handler.py:handle_request():146] handle_request: server_info
+2024-04-26 21:36:40,264 DEBUG   HandlerThread:124320 [handler.py:handle_request():146] handle_request: get_summary
+2024-04-26 21:36:40,264 DEBUG   HandlerThread:124320 [handler.py:handle_request():146] handle_request: sampled_history
+2024-04-26 21:36:40,265 DEBUG   SenderThread:124320 [sender.py:send_request():406] send_request: server_info
+2024-04-26 21:36:40,412 DEBUG   HandlerThread:124320 [handler.py:handle_request():146] handle_request: shutdown
+2024-04-26 21:36:40,412 INFO    HandlerThread:124320 [handler.py:finish():866] shutting down handler
+2024-04-26 21:36:41,268 INFO    WriterThread:124320 [datastore.py:close():296] close: C:\Users\Hayde\dev\RL-Rocket-League\wandb\run-20240426_213549-vshq57oh\run-vshq57oh.wandb
+2024-04-26 21:36:41,425 INFO    SenderThread:124320 [sender.py:finish():1546] shutting down sender
+2024-04-26 21:36:41,425 INFO    SenderThread:124320 [file_pusher.py:finish():172] shutting down file pusher
+2024-04-26 21:36:41,425 INFO    SenderThread:124320 [file_pusher.py:join():178] waiting for file pusher

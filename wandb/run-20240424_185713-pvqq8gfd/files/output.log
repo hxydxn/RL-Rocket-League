@@ -1,0 +1,117 @@
+Checkpoint loaded!
+Learner successfully initialized!
+Press (p) to pause (c) to checkpoint, (q) to checkpoint and quit (after next iteration)
+--------BEGIN ITERATION REPORT--------
+Policy Reward: 5.95067
+Policy Entropy: 4.32875
+Value Function Loss: 0.00309
+Mean KL Divergence: 0.00035
+SB3 Clip Fraction: 0.00243
+Policy Update Magnitude: 0.39219
+Value Function Update Magnitude: 0.31712
+Collected Steps per Second: 1,126.84645
+Overall Steps per Second: 1,077.48093
+Timestep Collection Time: 44.37162
+Timestep Consumption Time: 2.03292
+PPO Batch Consumption Time: 0.34004
+Total Iteration Time: 46.40453
+Cumulative Model Updates: 158,504
+Cumulative Timesteps: 1,246,841,882
+Timesteps Collected: 50,000
+--------END ITERATION REPORT--------
+--------BEGIN ITERATION REPORT--------
+Policy Reward: 7.60991
+Policy Entropy: 4.33645
+Value Function Loss: 0.00253
+Mean KL Divergence: 0.00253
+SB3 Clip Fraction: 0.02593
+Policy Update Magnitude: 0.86880
+Value Function Update Magnitude: 0.65302
+Collected Steps per Second: 1,131.77095
+Overall Steps per Second: 1,070.94335
+Timestep Collection Time: 44.17855
+Timestep Consumption Time: 2.50926
+PPO Batch Consumption Time: 0.24939
+Total Iteration Time: 46.68781
+Cumulative Model Updates: 158,510
+Cumulative Timesteps: 1,246,891,882
+Timesteps Collected: 50,000
+--------END ITERATION REPORT--------
+Saving checkpoint 1246891882...
+Checkpoint 1246891882 saved!
+--------BEGIN ITERATION REPORT--------
+Policy Reward: 5.33197
+Policy Entropy: 4.34511
+Value Function Loss: 0.00235
+Mean KL Divergence: 0.00460
+SB3 Clip Fraction: 0.04834
+Policy Update Magnitude: 1.16584
+Value Function Update Magnitude: 0.88494
+Collected Steps per Second: 1,169.21041
+Overall Steps per Second: 1,086.98339
+Timestep Collection Time: 42.76390
+Timestep Consumption Time: 3.23496
+PPO Batch Consumption Time: 0.24697
+Total Iteration Time: 45.99886
+Cumulative Model Updates: 158,519
+Cumulative Timesteps: 1,246,941,882
+Timesteps Collected: 50,000
+--------END ITERATION REPORT--------
+--------BEGIN ITERATION REPORT--------
+Policy Reward: 7.73899
+Policy Entropy: 4.35004
+Value Function Loss: 0.00209
+Mean KL Divergence: 0.00412
+SB3 Clip Fraction: 0.04268
+Policy Update Magnitude: 1.01891
+Value Function Update Magnitude: 0.78063
+Collected Steps per Second: 1,165.54041
+Overall Steps per Second: 1,083.83312
+Timestep Collection Time: 42.89856
+Timestep Consumption Time: 3.23401
+PPO Batch Consumption Time: 0.24591
+Total Iteration Time: 46.13256
+Cumulative Model Updates: 158,528
+Cumulative Timesteps: 1,246,991,882
+Timesteps Collected: 50,000
+--------END ITERATION REPORT--------
+Saving checkpoint 1246991882...
+Checkpoint 1246991882 saved!
+--------BEGIN ITERATION REPORT--------
+Policy Reward: 6.76138
+Policy Entropy: 4.35397
+Value Function Loss: 0.00209
+Mean KL Divergence: 0.00382
+SB3 Clip Fraction: 0.03886
+Policy Update Magnitude: 0.96821
+Value Function Update Magnitude: 0.70905
+Collected Steps per Second: 1,168.64868
+Overall Steps per Second: 1,086.42205
+Timestep Collection Time: 42.78446
+Timestep Consumption Time: 3.23817
+PPO Batch Consumption Time: 0.24788
+Total Iteration Time: 46.02263
+Cumulative Model Updates: 158,537
+Cumulative Timesteps: 1,247,041,882
+Timesteps Collected: 50,000
+--------END ITERATION REPORT--------
+--------BEGIN ITERATION REPORT--------
+Policy Reward: 5.05919
+Policy Entropy: 4.35448
+Value Function Loss: 0.00201
+Mean KL Divergence: 0.00347
+SB3 Clip Fraction: 0.03658
+Policy Update Magnitude: 0.95195
+Value Function Update Magnitude: 0.68682
+Collected Steps per Second: 1,117.27738
+Overall Steps per Second: 1,038.17417
+Timestep Collection Time: 44.75164
+Timestep Consumption Time: 3.40983
+PPO Batch Consumption Time: 0.25298
+Total Iteration Time: 48.16148
+Cumulative Model Updates: 158,546
+Cumulative Timesteps: 1,247,091,882
+Timesteps Collected: 50,000
+--------END ITERATION REPORT--------
+Saving checkpoint 1247091882...
+Checkpoint 1247091882 saved!
